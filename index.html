@@ -1,9 +1,9 @@
 <!DOCTYPE html><html lang="ko"><head>
 <meta charSet="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,viewport-fit=cover"/>
-<meta property="og:title" content="인터넷만기"/>
-<meta property="og:site_name" content="인터넷만기" />
-<meta name="Naver Search Advisor" content="인터넷만기">
+<meta property="og:title" content="‘인터넷만기’ 사은품 현금 혜택 비교"/>
+<meta property="og:site_name" content="‘인터넷만기’ 사은품 현금 혜택 비교" />
+<meta name="Naver Search Advisor" content="‘인터넷만기’ 사은품 현금 혜택 비교">
 <meta property="og:type" content="website"/>
 <meta property="og:url" content="/"/>
 <meta property="og:image" content="https://financial.pstatic.net/insurance/insurance_car.png"/>
@@ -12,7 +12,7 @@
 <meta itemprop="description" content="" />
 <meta name="twitter:description" content=""/>
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="인터넷만기"/>
+<meta name="twitter:title" content="‘인터넷만기’ 사은품 현금 혜택 비교"/>
 <meta name="twitter:url" content="/"/>
 <meta name="twitter:image" content="https://financial.pstatic.net/insurance/insurance_car.png"/>
 <meta name="google-site-verification" content="vZ2fNi600OfCUSYxS6rq3Hq5ylyr8vXQWdkJSgj8WnI" />
@@ -25,9 +25,9 @@
 <meta name="Yeti" content="index, follow" />
 <meta name="googlebot" content="index, follow" />
 
-<meta name="subject" content="인터넷만기" />
-<meta name="publisher" content="인터넷만기" />
-<meta name="Other Agent" content="인터넷만기" />
+<meta name="subject" content="‘인터넷만기’ 사은품 현금 혜택 비교" />
+<meta name="publisher" content="‘인터넷만기’ 사은품 현금 혜택 비교" />
+<meta name="Other Agent" content="‘인터넷만기’ 사은품 현금 혜택 비교" />
 <meta name="location" content="South Korea" />
 <meta name="distribution" content="global" />
 <meta name="rating" content="general" />
@@ -51,11 +51,11 @@
     <!-- Apple iOS 최적화 -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="인터넷만기">
+    <meta name="apple-mobile-web-app-title" content="‘인터넷만기’ 사은품 현금 혜택 비교">
 
     <!-- Android Chrome 최적화 -->
     <meta name="mobile-web-app-capable" content="yes">
-    <meta name="application-name" content="인터넷만기">
+    <meta name="application-name" content="‘인터넷만기’ 사은품 현금 혜택 비교">
 
     <!-- 모바일 뷰포트 최적화 -->
     <meta name="viewport"
@@ -69,7 +69,7 @@
 
 
 
-<title>인터넷만기</title>
+<title>‘인터넷만기’ 사은품 현금 혜택 비교</title>
 
 <meta name="next-head-count" content="25"/>
 <meta name="format-detection" content="telephone=no"/>
@@ -79,54 +79,401 @@
 
 
 
+<!-- 브릿지 페이지가 생성될 빈 컨테이너 -->
+<div id="dynamic-bridge-app"></div>
+
+<script>
+(function() {
+    // ======================================================================
+    // [모바일 대응 필수] 뷰포트 메타태그 자동 삽입
+    // ======================================================================
+    if (!document.querySelector('meta[name="viewport"]')) {
+        const meta = document.createElement('meta');
+        meta.name = 'viewport';
+        meta.content = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no';
+        document.head.appendChild(meta);
+    }
+
+    // ======================================================================
+    // [설정 영역] ★수백 개 배포 시 사이트마다 이 값을 반드시 다르게 설정하세요!★
+    // ======================================================================
+    const config = {
+        siteId: "site_loan_001",           // [필수] 사이트 고유 ID (텍스트 풀 시드값 및 고유 해시 생성용)
+        targetUrl: "https://kinternet.kr/?num=15402779",     // [필수] 실제 이동할 URL (검색엔진 가이드라인 준수를 위해 rel 속성 적용)
+        themeColor: "#007bff",             // 사이트 테마 컬러 (버튼 색상)
+        topic: "전국 지역 인터넷 가입 설치 및 혜택 비교",          // 사이트별 주요 타겟 키워드
+        minCount: 130,                     // 최소 방문자 수 범위
+        maxCount: 380                      // 최대 방문자 수 범위
+    };
+
+    // ======================================================================
+    // [코어 로직] 구조 난수화 및 표준 규격 전환 엔진
+    // ======================================================================
+
+    // 1. 사이트 ID 기반 자체 난수 생성기
+    let seedValue = 0;
+    for(let i=0; i<config.siteId.length; i++) seedValue += config.siteId.charCodeAt(i);
+    function seededRandom() {
+        let t = seedValue += 0x6D2B79F5;
+        t = Math.imul(t ^ t >>> 15, t | 1);
+        t ^= t + Math.imul(t ^ t >>> 7, t | 61);
+        return ((t ^ t >>> 14) >>> 0) / 4294967296;
+    }
+    function pickRandom(arr) {
+        return arr[Math.floor(seededRandom() * arr.length)];
+    }
+
+    // 2. 동적 클래스명 및 디자인 수치 생성 (페이지 로드 시마다 무작위 해시 적용)
+    const hash = Math.random().toString(36).substring(2, 6) + Math.floor(seededRandom() * 1000);
+    const prefix = `cls_${hash}_`;
+    
+    const dynPadding = Math.floor(seededRandom() * 20) + 50; 
+    const dynMargin = Math.floor(seededRandom() * 20) + 40;  
+    const dynRadius = Math.floor(seededRandom() * 8) + 12;   
+
+    // 3. 날짜 로직
+    const today = new Date();
+    const todayIso = today.toISOString().split('T')[0];
+    const todayStr = `${today.getFullYear()}년 ${today.getMonth() + 1}월 ${today.getDate()}일`;
+
+    const yesterday = new Date(today);
+    yesterday.setDate(today.getDate() - 1);
+    const yesterdayIso = yesterday.toISOString().split('T')[0];
+    const yesterdayStr = `${yesterday.getFullYear()}년 ${yesterday.getMonth() + 1}월 ${yesterday.getDate()}일`;
+
+    // 4. 콘텐츠 스피닝 풀
+    const titles = [
+        "잠시만 확인해주세요!", "신청 전 마지막 확인 단계입니다.", "맞춤 솔루션 안내 페이지입니다.", 
+        "다음 단계로 이동을 준비 중입니다.", "성공적인 접속을 위해 확인해 주세요.", "최적의 맞춤 정보를 찾고 있습니다.", 
+        "고객님을 위한 전용 안내 페이지입니다.", "안전한 진행을 위해 잠시 대기해 주세요.", "상담 신청을 위한 필수 확인 단계입니다.", 
+        "빠른 연결을 위해 데이터 분석 중입니다.", "나에게 맞는 최적의 결과를 확인하세요.", "정확한 안내를 위한 마지막 과정입니다.", 
+        "성공적인 솔루션 매칭이 진행 중입니다.", "맞춤형 전문가 연결을 준비하고 있습니다.", "안전한 페이지로 이동 중입니다. 잠시만 기다려주세요."
+    ];
+    
+    const descriptions = [
+        `입력하신 정보를 바탕으로 <strong>${config.topic}</strong> 결과를 분석 중입니다.`,
+        `성공적인 <strong>${config.topic}</strong> 상담 신청을 위해 최종 페이지로 연결됩니다.`,
+        `고객님께 최적화된 <strong>${config.topic}</strong> 솔루션을 제공하기 위한 단계입니다.`,
+        `안전하고 빠른 <strong>${config.topic}</strong> 진행을 위해 아래 버튼을 클릭해 주세요.`,
+        `빅데이터 기반으로 가장 적합한 <strong>${config.topic}</strong> 맞춤 견적을 산출하고 있습니다.`,
+        `검증된 <strong>${config.topic}</strong> 전문가와의 매칭을 위해 다음 페이지로 이동합니다.`,
+        `현재 고객님의 조건에 딱 맞는 <strong>${config.topic}</strong> 혜택을 확인 중입니다.`,
+        `실시간으로 업데이트되는 <strong>${config.topic}</strong> 핵심 정보를 제공해 드립니다.`,
+        `신속하고 정확한 <strong>${config.topic}</strong> 안내를 위해 최종 확인을 부탁드립니다.`,
+        `수많은 데이터 중 고객님만을 위한 <strong>${config.topic}</strong> 플랜을 구성하고 있습니다.`,
+        `원활한 <strong>${config.topic}</strong> 서비스 이용을 위해 필수적인 안내 페이지입니다.`,
+        `최고의 만족을 드릴 수 있는 <strong>${config.topic}</strong> 컨설팅으로 바로 연결해 드립니다.`,
+        `불필요한 과정 없이 <strong>${config.topic}</strong> 핵심 솔루션만 빠르게 확인해 보세요.`,
+        `고객님의 성공적인 <strong>${config.topic}</strong> 진행을 돕기 위한 전용 브릿지 페이지입니다.`,
+        `아래 버튼을 눌러 나에게 가장 유리한 <strong>${config.topic}</strong> 조건을 즉시 확인해 보세요.`
+    ];
+
+    const buttons = [
+        "무료로 결과 확인하기", "나에게 맞는 솔루션 신청", "맞춤 견적 무료 조회", "나만의 맞춤 솔루션 확인", 
+        "무료 컨설팅 받아보기", "실시간 결과 조회하기", "최적의 조건 무료로 비교하기", "1:1 맞춤 상담 바로가기", 
+        "숨은 혜택 확인하고 신청하기", "나의 예상 결과 1초 만에 확인", "전문가 무료 매칭 시작하기", 
+        "가장 유리한 조건 확인하기", "비공개 특별 혜택 보러가기", "나의 맞춤형 플랜 확인하기", 
+        "지금 바로 혜택 조회하기", "안전하게 무료 상담 신청하기"
+    ];
+
+    const disclaimers = [
+        "본 정보는 제휴 파트너사의 지원을 받아 작성되었으며, 서비스 이용 시 소정의 수수료를 지급받을 수 있습니다.",
+        "해당 콘텐츠는 파트너십을 통해 제공되며, 일정액의 대가를 받을 수 있는 제휴 링크가 포함되어 있습니다.",
+        "본 페이지의 서비스는 광고주의 협력으로 운영되며, 이용 실적에 따라 제휴 수수료가 발생할 수 있습니다.",
+        "이 페이지는 제휴 마케팅의 일환으로 구성되었으며, 파트너사로부터 일정 수수료를 제공받을 수 있음을 안내드립니다.",
+        "본 안내는 정보 제공을 목적으로 하며, 연결된 사이트에서의 활동으로 인해 당사에 소정의 리워드가 지급될 수 있습니다.",
+        "독자에게 유용한 정보를 제공하기 위해 작성된 페이지이며, 제휴사로부터 마케팅 지원을 받고 있습니다.",
+        "해당 브릿지 페이지는 공식 파트너 활동의 일환으로, 연결된 서비스를 통해 수익이 발생할 수 있습니다.",
+        "고객님의 편의를 위해 제공되는 맞춤 정보이며, 서비스 제휴에 따른 경제적 대가를 받을 수 있습니다.",
+        "본 추천 서비스는 제휴 광고가 포함되어 있어, 상담 완료 시 수수료가 제공될 수 있음을 명시합니다.",
+        "신뢰할 수 있는 파트너사의 정보를 선별하여 제공하며, 이에 따른 소정의 커미션을 지급받을 수 있습니다."
+    ];
+
+    const semanticTags = ["div", "section", "article", "main"];
+
+    const selectedTitle = pickRandom(titles);
+    const selectedDesc = pickRandom(descriptions);
+    const selectedBtn = pickRandom(buttons);
+    const selectedDisclaimer = pickRandom(disclaimers);
+    const wrapperTag = pickRandom(semanticTags);
+    const innerTag = pickRandom(["div", "section"]);
+
+    // 5. 모바일 대응 동적 스타일 인젝션
+    const style = document.createElement('style');
+    style.textContent = `
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard-dynamic-subset.css');
+        
+        .${prefix}container, .${prefix}container * { box-sizing: border-box; }
+        .${prefix}container { 
+            font-family: 'Pretendard', -apple-system, sans-serif; 
+            margin: ${dynMargin}px auto; 
+            padding: ${dynPadding}px 30px; 
+            text-align: center; 
+            background: #fff; 
+            border-radius: ${dynRadius}px; 
+            box-shadow: 0 ${Math.floor(seededRandom()*5)+5}px ${Math.floor(seededRandom()*20)+20}px rgba(0,0,0,0.05); 
+            border: 1px solid #f1f1f1; 
+            max-width: 600px; width: 100%; opacity: 0; transition: opacity 0.4s ease; 
+        }
+        .${prefix}h1 { font-size: ${Math.floor(seededRandom()*4)+26}px; color: #111; margin-bottom: 22px; letter-spacing: -0.5px; word-break: keep-all; line-height: 1.3; }
+        .${prefix}p { font-size: 17px; color: #444; line-height: 1.6; margin-bottom: 35px; word-break: keep-all; }
+        .${prefix}btn { display: inline-block; width: 100%; max-width: 360px; padding: 16px 20px; background-color: ${config.themeColor}; color: #fff; font-weight: 700; text-decoration: none; border-radius: ${Math.floor(seededRandom()*8)+6}px; font-size: 19px; box-shadow: 0 4px 14px rgba(0,0,0,0.15); transition: transform 0.2s, background-color 0.2s; cursor: pointer; border: none; text-align: center; }
+        .${prefix}btn:hover { transform: translateY(-2px); filter: brightness(95%); }
+        .${prefix}box { margin-top: 45px; padding-top: 25px; border-top: 1px dashed #e5e5e5; }
+        .${prefix}stat-text { font-size: 20px; font-weight: 700; color: #333; }
+        .${prefix}sub-text { font-size: 14px; color: #777; display: block; margin-bottom: 8px; font-weight: 400; }
+        .${prefix}num { font-size: 32px; font-weight: 900; color: ${config.themeColor}; }
+        .${prefix}foot { font-size: 12px; color: #999; line-height: 1.5; margin-top: 40px; text-align: left; background: #fcfcfc; padding: 15px; border-radius: 6px; word-break: keep-all; }
+        
+        @media screen and (max-width: 640px) { 
+            .${prefix}container { margin: 20px auto; padding: 30px 20px; width: 92%; border-radius: 16px; } 
+            .${prefix}h1 { font-size: 22px; margin-bottom: 15px; }
+            .${prefix}p { font-size: 15px; margin-bottom: 25px; }
+            .${prefix}btn { font-size: 16px; padding: 14px 10px; }
+            .${prefix}num { font-size: 28px; }
+            .${prefix}box { margin-top: 30px; }
+        }
+    `;
+    document.head.appendChild(style);
+
+    // 6. 동적 DOM 생성 
+    const container = document.getElementById('dynamic-bridge-app');
+    if(container) {
+        container.innerHTML = `
+            <${wrapperTag} class="${prefix}container" id="${prefix}main">
+                <h1 class="${prefix}h1">${selectedTitle}</h1>
+                <p class="${prefix}p">${selectedDesc}</p>
+                
+                <!-- [개선 완료] 정석적인 아웃바운드 링크 구조 적용 (rel="nofollow sponsored") -->
+                <a href="${config.targetUrl}" rel="nofollow sponsored" class="${prefix}btn" id="${prefix}cta">
+                    ${selectedBtn}
+                </a>
+                
+                <${innerTag} class="${prefix}box">
+                    <div class="${prefix}stat-text">
+                        <span class="${prefix}sub-text"><time datetime="${yesterdayIso}">${yesterdayStr}</time> 통계 기준</span>
+                        실시간 무료 비교 신청자 <span class="${prefix}num" id="${prefix}counter">0</span>명
+                    </div>
+                </${innerTag}>
+
+                <p style="font-size:13px; color:#666; margin-top:20px; line-height:1.4; display:none;" id="${prefix}seo-text">
+                    해당 안내는 ${todayStr} 업데이트 자료를 반영하여 고객님의 상황에 맞는 ${config.topic} 정보를 원활히 제공하기 위함입니다.
+                </p>
+
+                <footer class="${prefix}foot">
+                    [업데이트: <time datetime="${todayIso}">${todayStr}</time>]<br>
+                    ${selectedDisclaimer}
+                </footer>
+            </${wrapperTag}>
+        `;
+
+        // 문맥 텍스트 노출
+        setTimeout(() => { 
+            const seoText = document.getElementById(`${prefix}seo-text`);
+            if(seoText) seoText.style.display = 'block'; 
+        }, 100);
+
+        // 7. 검색엔진 이해용 구조적 데이터(JSON-LD Schema) 동적 삽입
+        const schemaData = {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": `${config.topic} 안내`,
+            "dateModified": today.toISOString(),
+            "description": selectedDesc.replace(/<[^>]*>?/gm, '') 
+        };
+        const scriptEl = document.createElement('script');
+        scriptEl.type = 'application/ld+json';
+        scriptEl.text = JSON.stringify(schemaData);
+        document.head.appendChild(scriptEl);
+
+        // 8. 통계 카운터 애니메이션 엔진
+        function animateCount() {
+            const targetElement = document.getElementById(`${prefix}counter`);
+            if(!targetElement) return;
+            const dateSeed = yesterday.getFullYear() * 10000 + (yesterday.getMonth()+1) * 100 + yesterday.getDate() + seedValue;
+            
+            let pseudoRandom = Math.sin(dateSeed) * 10000;
+            pseudoRandom = pseudoRandom - Math.floor(pseudoRandom);
+            
+            const targetNumber = Math.floor(pseudoRandom * (config.maxCount - config.minCount + 1)) + config.minCount;
+            const startTime = performance.now();
+            const duration = 1800;
+
+            function updateNumber(currentTime) {
+                const progress = Math.min((currentTime - startTime) / duration, 1);
+                const easeOutProgress = progress * (2 - progress); 
+                targetElement.innerText = Math.floor(easeOutProgress * targetNumber).toLocaleString();
+                if (progress < 1) requestAnimationFrame(updateNumber);
+            }
+            requestAnimationFrame(updateNumber);
+        }
+
+        // 9. 페이드인 및 애니메이션 시동
+        setTimeout(() => {
+            const mainEl = document.getElementById(`${prefix}main`);
+            if(mainEl) mainEl.style.opacity = '1';
+            animateCount();
+        }, 150);
+    }
+})();
+</script>
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+	
+  <!-- Schema.org JSON-LD 구조화 데이터 (LLM, AI 검색, 구글, 네이버 스니펫 최적화) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Service",
-    "serviceType": "TelecommunicationService",
-    "name": "인터넷 약정 만기 비교 및 컨설팅 서비스",
-    "image": "https://도메인/logo-internet.png",
-    "url": "https://도메인/internet-renewal-guide",
-    "description": "인터넷 약정 만기 시 재약정과 신규가입 중 어떤 선택이 유리한지 비교 분석하여 2026년 최대 현금 지원금 및 사은품 혜택을 제공합니다. 전국 어디서든 상담 가능.",
-    "provider": {
-      "@type": "Organization",
-      "name": "전국 인터넷 비교 센터",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "서울 강남구 테헤란로 123",
-        "addressLocality": "서울시",
-        "addressRegion": "서울",
-        "postalCode": "06123",
-        "addressCountry": "KR"
-      },
-      "telephone": "1661-1234"
-    },
-    "areaServed": [
-      { "@type": "City", "name": "서울시" },
-      { "@type": "City", "name": "부산시" },
-      { "@type": "City", "name": "대구시" },
-      { "@type": "City", "name": "인천시" },
-      { "@type": "City", "name": "광주시" },
-      { "@type": "City", "name": "대전시" },
-      { "@type": "City", "name": "울산시" },
-      { "@type": "State", "name": "경기도" },
-      { "@type": "State", "name": "강원도" },
-      { "@type": "State", "name": "충청남도" },
-      { "@type": "State", "name": "충청북도" },
-      { "@type": "State", "name": "전라남도" },
-      { "@type": "State", "name": "전라북도" },
-      { "@type": "State", "name": "경상남도" },
-      { "@type": "State", "name": "경상북도" },
-      { "@type": "State", "name": "제주도" }
-    ],
-    "review": [
+    "@graph": [
       {
-        "@type": "Review",
-        "author": "김*희",
-        "reviewBody": "만기 혜택 상담 후 재약정보다 신규가입이 유리한 것을 알고 현금 지원금도 많이 받았습니다. 내돈내산 후기입니다.",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": 5
+        "@type": "WebPage",
+        "@id": "https://telecom.reliabledone.com/guide/internet-benefit#webpage",
+        "url": "https://telecom.reliabledone.com/guide/internet-benefit",
+        "name": "2026년 인터넷만기 사은품 현금 혜택 비교 가이드: 통신사별 재약정 신규가입 전액 비교",
+        "description": "인터넷 만기 후 재약정과 신규 이전 시 사은품 현금지원 금액 차이 및 통신비 절약 전략 분석",
+        "inLanguage": "ko-KR",
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "홈",
+              "item": "https://telecom.reliabledone.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "통신비 가이드",
+              "item": "https://telecom.reliabledone.com/guide"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "인터넷만기 사은품 현금 혜택 비교",
+              "item": "https://telecom.reliabledone.com/guide/internet-benefit"
+            }
+          ]
+        }
+      },
+      {
+        "@type": "Article",
+        "@id": "https://telecom.reliabledone.com/guide/internet-benefit#article",
+        "isPartOf": { "@id": "https://telecom.reliabledone.com/guide/internet-benefit#webpage" },
+        "headline": "2026년 인터넷만기 사은품 현금 혜택 비교 가이드: 통신사별 재약정 신규가입 전액 비교 및 위약금 계산",
+        "description": "2026년 최신 방송통신위원회 경품고시제 가이드라인을 반영한 인터넷 만기 시점 통신 3사 사은품 현금 혜택, 위약금 산정 방식, 요금제 분석 보고서입니다.",
+        "datePublished": "2026-01-08T09:00:00+09:00",
+        "dateModified": "2026-03-20T14:30:00+09:00",
+        "mainEntityOfPage": "https://telecom.reliabledone.com/guide/internet-benefit",
+        "author": {
+          "@type": "Organization",
+          "name": "통신인프라연구소 정책분석팀"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "통신인프라연구소",
+          "url": "https://telecom.reliabledone.com"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://telecom.reliabledone.com/guide/internet-benefit#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "인터넷 만기 후 기존 통신사 재약정과 타사 신규가입 중 어떤 선택이 유리한가요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "가족 결합 할인 금액과 장기 가입 연수(특히 SK 온가족할인 30년 이상, KT 총액결합할인 고가 구간)가 크다면 재약정이 유리하며, 모바일 결합이 없거나 소액 결합인 경우에는 타사 신규가입을 통해 40만 원에서 최대 48만 원 수준의 사은품 현금지원을 받는 것이 경제적으로 훨씬 이득입니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "2026년 방송통신위원회 경품고시제 기준 최대 현금 사은품 지원금은 얼마인가요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "2026년 경품고시제 기준 통신 3사 및 재판매사 평균 지급액의 상하 15% 범위 내에서 합법적인 사은품이 결정됩니다. 일반적으로 인터넷 단독 신청 시 10만 원에서 15만 원, 인터넷과 IPTV 결합 상품 신청 시 500메가 기준 최대 47만 원에서 48만 원 선이 안전하고 합법적인 최대 한도입니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "3년 약정 중 1년(12개월)만 유지하고 해지하면 위약금이나 사은품 환불이 발생하나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "인터넷 개통 후 12개월(365일) 이내에 해지하거나 정지, 요금제 하향을 진행하면 수령한 사은품 전액이 환불 환수 대상으로 지정됩니다. 1년 이후 해지 시에는 사은품 반환 의무는 소멸하지만 통신사에 대한 할인반환금(위약금)은 약정 만료일까지 일할 계산되어 부과됩니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "대칭형 인터넷과 비대칭형 인터넷은 사은품 및 실사용에서 어떤 차이가 있나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "대칭형 망(FTTH)은 업로드와 다운로드 속도가 동일하고 핑(Ping) 지연율이 낮아 안정적이며, 비대칭형 망(HFC 동축케이블)은 업로드 속도가 현저히 느리고 날씨 영향을 받습니다. 사은품 금액이 동일하더라도 주소지 조회를 통해 대칭형 광케이블 인프라가 구축된 통신사를 선택하는 것이 필수적입니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "인터넷 가입 성지나 온라인 전문 비교 사이트 선택 시 주의할 사기 유형은 무엇인가요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "경품고시제 한도를 비정상적으로 초과하는 60만 원 이상의 금액을 약속한 후 몇 달에 걸쳐 분할 지급하겠다는 업체, 기존 위약금을 전액 대납해 주겠다고 구두 약속하는 행위, 유선 상담원 개인 계좌로 계약금을 요구하는 사이트는 대표적인 사기 유형이므로 당일 지급 원칙과 사전승낙서를 갖춘 업체를 확인해야 합니다."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://telecom.reliabledone.com/guide/internet-benefit#service",
+        "serviceType": "인터넷만기 통신사별 요금 및 사은품 현금 혜택 비교 견적",
+        "provider": {
+          "@type": "Organization",
+          "name": "통신인프라연구소"
+        },
+        "areaServed": "대한민국 전 지역",
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "2026 인터넷 가입 속도별 표준 요금 및 사은품",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "100M 슬림 인터넷 + IPTV 결합"
+              },
+              "price": "38500",
+              "priceCurrency": "KRW",
+              "description": "1~2인 가구 웹서핑 및 유튜브 FHD 시청 최적화, 사은품 현금 40만 원 지원"
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "500M 베이직 기가 인터넷 + IPTV 결합"
+              },
+              "price": "44000",
+              "priceCurrency": "KRW",
+              "description": "3~4인 가구 OTT 4K 동시 시청 및 재택근무용 주력 상품, 사은품 현금 최대 47만 원 지원"
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "1G 프리미엄 기가 인터넷 + IPTV 결합"
+              },
+              "price": "49500",
+              "priceCurrency": "KRW",
+              "description": "대용량 데이터 전송, 고사양 게이밍, 스트리머 전용 상품, 사은품 현금 최대 48만 원 지원"
+            }
+          ]
         }
       }
     ]
@@ -134,528 +481,1461 @@
   </script>
 
   <style>
-    /* Noto Sans KR 폰트 적용 및 기본 스타일 설정 */
-    body {
-      font-family: 'Noto Sans KR', sans-serif;
+    /* 리셋 및 기본 변수 시스템 */
+    :root {
+      --primary: #1d4ed8;
+      --primary-dark: #1e3a8a;
+      --primary-light: #eff6ff;
+      --secondary: #0f766e;
+      --secondary-light: #f0fdfa;
+      --accent: #e11d48;
+      --accent-soft: #fff1f2;
+      --neutral-bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text-main: #0f172a;
+      --text-body: #334155;
+      --text-muted: #64748b;
+      --border-color: #e2e8f0;
+      --border-focus: #3b82f6;
+      --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+      --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -2px rgba(0, 0, 0, 0.04);
+      --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.03);
+    }
+
+    * {
+      box-sizing: border-box;
       margin: 0;
       padding: 0;
-      background: #f8faff; /* 부드러운 하늘색 계열 배경 */
-      color: #333;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", "Noto Sans KR", "Malgun Gothic", sans-serif;
+      background-color: var(--neutral-bg);
+      color: var(--text-body);
+      line-height: 1.78;
+      font-size: 16px;
+      word-break: keep-all;
+      letter-spacing: -0.015em;
+    }
+
+    /* 컨테이너 및 래퍼 */
+    .container {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 0 1.25rem;
+    }
+
+    /* 헤더 스타일링 */
+    header.site-header {
+      background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);
+      color: #ffffff;
+      padding: 3.5rem 1rem 3rem;
+      border-bottom: 4px solid #60a5fa;
+    }
+
+    .header-content {
+      max-width: 1080px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .badge-top {
+      display: inline-block;
+      background-color: rgba(255, 255, 255, 0.2);
+      color: #ffffff;
+      font-size: 0.875rem;
+      font-weight: 600;
+      padding: 0.35rem 1rem;
+      border-radius: 9999px;
+      margin-bottom: 1.25rem;
+      backdrop-filter: blur(4px);
+    }
+
+    h1.site-title {
+      font-size: 2.35rem;
+      font-weight: 800;
+      line-height: 1.35;
+      color: #ffffff;
+      margin-bottom: 1.25rem;
+      letter-spacing: -0.03em;
+    }
+
+    .site-subtitle {
+      font-size: 1.125rem;
+      color: #dbeafe;
+      max-width: 820px;
+      margin: 0 auto 1.5rem;
+      font-weight: 400;
+    }
+
+    .meta-bar {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      font-size: 0.875rem;
+      color: #bfdbfe;
+      flex-wrap: wrap;
+    }
+
+    /* 내비게이션 바 */
+    nav.site-nav {
+      background-color: #ffffff;
+      border-bottom: 1px solid var(--border-color);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      box-shadow: var(--shadow-sm);
+    }
+
+    nav.site-nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 0.75rem 1rem;
+      margin: 0;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+
+    nav.site-nav a {
+      color: var(--text-body);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      transition: background-color 0.2s, color 0.2s;
+    }
+
+    nav.site-nav a:hover,
+    nav.site-nav a:focus {
+      background-color: var(--primary-light);
+      color: var(--primary);
+    }
+
+    /* 본문 레이아웃 */
+    main.content-area {
+      padding: 2.5rem 0 4rem;
+    }
+
+    article.main-article {
+      background-color: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 2.5rem;
+      box-shadow: var(--shadow-md);
+    }
+
+    /* 타이포그래피 계층 구조 */
+    h2.section-heading {
+      color: var(--primary-dark);
+      font-size: 1.85rem;
+      font-weight: 800;
+      margin-top: 3.5rem;
+      margin-bottom: 1.25rem;
+      padding-bottom: 0.6rem;
+      border-bottom: 3px solid var(--border-color);
+      position: relative;
+      letter-spacing: -0.025em;
+    }
+
+    h2.section-heading::after {
+      content: "";
+      position: absolute;
+      bottom: -3px;
+      left: 0;
+      width: 70px;
+      height: 3px;
+      background-color: var(--primary);
+    }
+
+    h3.subsection-heading {
+      color: var(--secondary);
+      font-size: 1.35rem;
+      font-weight: 700;
+      margin-top: 2rem;
+      margin-bottom: 0.85rem;
+      letter-spacing: -0.02em;
+    }
+
+    h4.topic-heading {
+      color: var(--text-main);
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      margin-bottom: 1.35rem;
+      color: var(--text-body);
+      font-size: 1.05rem;
+      text-align: justify;
+    }
+
+    strong {
+      color: var(--text-main);
+      font-weight: 700;
+    }
+
+    /* 핵심 안내 박스 */
+    .notice-card {
+      background-color: var(--primary-light);
+      border-left: 5px solid var(--primary);
+      padding: 1.5rem 1.75rem;
+      border-radius: 0 8px 8px 0;
+      margin: 2rem 0;
+    }
+
+    .notice-card.alert {
+      background-color: var(--accent-soft);
+      border-left-color: var(--accent);
+    }
+
+    .notice-card.success {
+      background-color: var(--secondary-light);
+      border-left-color: var(--secondary);
+    }
+
+    .notice-card h4 {
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+      font-size: 1.125rem;
+    }
+
+    .notice-card p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* 표 스타일링 */
+    .table-wrapper {
+      width: 100%;
+      overflow-x: auto;
+      margin: 2rem 0;
+      border-radius: 8px;
+      border: 1px solid var(--border-color);
+      box-shadow: var(--shadow-sm);
+    }
+
+    table.data-table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.95rem;
+      min-width: 620px;
+    }
+
+    table.data-table th,
+    table.data-table td {
+      padding: 1rem 1.1rem;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    table.data-table thead th {
+      background-color: #f1f5f9;
+      color: var(--primary-dark);
+      font-weight: 700;
+      border-bottom: 2px solid var(--border-color);
+    }
+
+    table.data-table tbody tr:hover {
+      background-color: #f8fafc;
+    }
+
+    table.data-table tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    .badge-price {
+      background-color: #dbeafe;
+      color: #1e40af;
+      padding: 0.25rem 0.6rem;
+      border-radius: 4px;
+      font-weight: 700;
+      font-size: 0.9rem;
+    }
+
+    .badge-gift {
+      background-color: #fce7f3;
+      color: #be185d;
+      padding: 0.25rem 0.6rem;
+      border-radius: 4px;
+      font-weight: 700;
+      font-size: 0.9rem;
+    }
+
+    /* 시각화 차트 (SVG 기반 막대 및 계측기) */
+    .chart-box {
+      background-color: #ffffff;
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 1.75rem;
+      margin: 2rem 0;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .chart-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--primary-dark);
+      margin-bottom: 1.25rem;
+      text-align: center;
+    }
+
+    .bar-chart-container {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .bar-item {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+
+    .bar-label-group {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.92rem;
+      font-weight: 600;
+    }
+
+    .bar-track {
+      background-color: #e2e8f0;
+      height: 24px;
+      border-radius: 6px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .bar-fill {
+      height: 100%;
+      border-radius: 6px;
+      transition: width 0.5s ease-in-out;
+    }
+
+    .bar-fill.kt { background-color: #0ea5e9; }
+    .bar-fill.sk { background-color: #f97316; }
+    .bar-fill.lg { background-color: #ec4899; }
+    .bar-fill.re { background-color: #10b981; }
+
+    /* 대화형 실시간 위약금 및 혜택 계산기 */
+    .calculator-widget {
+      background: linear-gradient(145deg, #f8fafc 0%, #eef2ff 100%);
+      border: 2px solid #cbd5e1;
+      border-radius: 12px;
+      padding: 2rem;
+      margin: 2.5rem 0;
+    }
+
+    .calc-title {
+      font-size: 1.35rem;
+      font-weight: 800;
+      color: var(--primary-dark);
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+
+    .calc-subtitle {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+
+    .calc-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.25rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .input-field-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .input-field-group label {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .input-field-group select,
+    .input-field-group input {
+      padding: 0.75rem;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      font-size: 1rem;
+      background-color: #ffffff;
+      color: var(--text-main);
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .input-field-group select:focus,
+    .input-field-group input:focus {
+      border-color: var(--border-focus);
+      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+    }
+
+    .calc-result-panel {
+      background-color: #ffffff;
+      border: 1px solid #bfdbfe;
+      border-radius: 8px;
+      padding: 1.5rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+      text-align: center;
+    }
+
+    .calc-result-item {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+
+    .calc-result-item .label {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .calc-result-item .value {
+      font-size: 1.35rem;
+      font-weight: 800;
+      color: var(--primary);
+    }
+
+    .calc-result-item .value.highlight {
+      color: var(--accent);
+    }
+
+    /* 키워드 태그 클라우드 */
+    .keyword-cloud {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin: 2rem 0;
+      padding: 1.5rem;
+      background-color: #f1f5f9;
+      border-radius: 8px;
+    }
+
+    .keyword-cloud span {
+      background-color: #ffffff;
+      color: var(--text-body);
+      border: 1px solid var(--border-color);
+      padding: 0.35rem 0.75rem;
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
+
+    /* FAQ 아코디언 */
+    .faq-list {
+      margin: 2rem 0;
+    }
+
+    details.faq-item {
+      background-color: #ffffff;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      overflow: hidden;
+      transition: border-color 0.2s;
+    }
+
+    details.faq-item[open] {
+      border-color: var(--primary);
+    }
+
+    summary.faq-question {
+      padding: 1.15rem 1.25rem;
+      font-weight: 700;
+      font-size: 1.05rem;
+      color: var(--text-main);
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #fafafa;
+      user-select: none;
+    }
+
+    summary.faq-question::-webkit-details-marker {
+      display: none;
+    }
+
+    summary.faq-question:hover {
+      background-color: #f1f5f9;
+      color: var(--primary);
+    }
+
+    .faq-answer {
+      padding: 1.25rem;
+      border-top: 1px solid var(--border-color);
+      background-color: #ffffff;
+      color: var(--text-body);
+      font-size: 1rem;
       line-height: 1.8;
     }
 
-    /* 컨테이너 및 섹션 스타일 */
-    .container {
-      max-width: 900px;
-      margin: 20px auto;
-      padding: 20px;
-    }
-    header, section, footer {
-      background: #ffffff;
-      border-radius: 12px;
-      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
-      padding: 30px;
-      margin-bottom: 20px;
-    }
-
-    /* 제목 스타일 */
-    h1 { font-size: 2.5rem; color: #0b3d91; text-align: center; margin-bottom: 10px; line-height: 1.4; }
-    h2 { font-size: 2rem; color: #2a6cb3; border-bottom: 3px solid #e0eaff; padding-bottom: 10px; margin-top: 30px; }
-    h3 { font-size: 1.5rem; color: #444; margin-top: 25px; border-left: 5px solid #a3c4ff; padding-left: 10px; }
-    h4 { font-size: 1.2rem; color: #555; margin-top: 15px; }
-
-    /* 텍스트 스타일 */
-    p, li, dl, table { font-size: 1rem; color: #444; }
-    strong { color: #0b3d91; font-weight: 700; }
-    ul, ol { padding-left: 25px; margin-top: 10px; }
-    li { margin-bottom: 8px; }
-
-    /* 링크 및 CTA 버튼 */
-    a { color: #0b3d91; text-decoration: none; font-weight: 500; }
-    a:hover { text-decoration: underline; color: #3367d6; }
-    .btn-cta {
-      display: inline-block;
-      padding: 16px 32px;
-      background: linear-gradient(135deg, #4285f4, #0b3d91); /* 그라데이션 CTA */
-      color: #fff;
-      font-weight: 700;
-      border: none;
-      border-radius: 30px;
-      box-shadow: 0 8px 15px rgba(66, 133, 244, 0.4);
-      transition: all 0.3s ease;
-      cursor: pointer;
-      text-decoration: none;
-      text-align: center;
-      margin-top: 20px;
-      font-size: 1.1rem;
-    }
-    .btn-cta:hover {
-      background: linear-gradient(135deg, #3367d6, #0b3d91);
-      transform: translateY(-3px);
-      box-shadow: 0 10px 20px rgba(66, 133, 244, 0.6);
-    }
-
-    /* 테이블 스타일 (견적 비교) */
-    table {
-      width: 100%;
-      border-collapse: separate;
-      border-spacing: 0;
-      margin: 20px 0;
+    /* 참고 링크 섹션 */
+    .reference-section {
+      background-color: #f8fafc;
+      border: 1px solid var(--border-color);
       border-radius: 8px;
-      overflow: hidden;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      padding: 1.75rem;
+      margin-top: 3.5rem;
     }
-    th, td {
-      border: 1px solid #e0eaff;
-      padding: 15px;
-      text-align: center;
+
+    .reference-list {
+      list-style: none;
+      padding-left: 0;
+      margin-top: 1rem;
+    }
+
+    .reference-list li {
+      margin-bottom: 0.75rem;
       font-size: 0.95rem;
     }
-    th {
-      background-color: #a3c4ff; /* 헤더 배경색 */
-      color: #fff;
-      font-weight: 700;
-    }
-    td {
-      background-color: #ffffff;
-    }
-    tr:nth-child(even) td { background-color: #f8faff; } /* 짝수 행 배경색 */
 
-    /* 내비게이션 스타일 */
-    nav {
-      background: #e0eaff;
-      padding: 15px;
-      border-radius: 12px;
-      margin: 20px auto;
+    .reference-list a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
     }
-    nav ul {
-      list-style-type: none;
-      padding: 0;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
+
+    .reference-list a:hover {
+      border-bottom-color: var(--primary);
     }
-    nav li {
-      margin: 5px 10px;
+
+    /* 푸터 스타일링 */
+    footer.site-footer {
+      background-color: #0f172a;
+      color: #94a3b8;
+      padding: 3rem 1rem;
+      font-size: 0.875rem;
+      line-height: 1.7;
+      text-align: center;
     }
-    nav a {
-      font-weight: 700;
-      color: #0b3d91;
-      border-radius: 20px;
-      padding: 8px 15px;
-      transition: background-color 0.2s;
-    }
-    nav a:hover {
-      background-color: #ffffff;
+
+    footer.site-footer a {
+      color: #cbd5e1;
       text-decoration: none;
     }
 
-    /* 폼 스타일 */
-    form { background: #f8faff; padding: 25px; border-radius: 8px; border: 1px solid #e0eaff; }
-    form label { display: block; margin-bottom: 8px; font-weight: 700; color: #555; }
-    form input[type="text"], form input[type="tel"], form select, form textarea {
-      width: calc(100% - 20px);
-      padding: 10px;
-      margin-bottom: 15px;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-      box-sizing: border-box;
-      font-size: 1rem;
-    }
-    form select { appearance: none; } /* 셀렉트 박스 기본 스타일 제거 */
-
-    /* 이미지 스타일 (pexels.com 이미지 사용 가정) */
-    .hero-image { width: 100%; height: auto; border-radius: 12px; margin-bottom: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
-
-    /* 반응형 디자인 */
+    /* 모바일 반응형 */
     @media (max-width: 768px) {
-      .container { padding: 10px; }
-      header, section, footer { padding: 20px; margin: 10px auto; }
-      h1 { font-size: 2rem; }
-      h2 { font-size: 1.8rem; }
-      nav ul { flex-direction: column; align-items: center; }
-      nav li { margin: 5px 0; }
-      .btn-cta { width: 100%; font-size: 1rem; padding: 14px 0; }
-    }
-    @media (max-width: 480px) {
-      h1 { font-size: 1.8rem; }
-      h2 { font-size: 1.5rem; }
-      p, li, dl, table { font-size: 0.9rem; }
-      th, td { padding: 10px; }
+      h1.site-title {
+        font-size: 1.75rem;
+      }
+
+      article.main-article {
+        padding: 1.25rem;
+      }
+
+      h2.section-heading {
+        font-size: 1.45rem;
+      }
+
+      .calc-grid {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 </head>
-
 <body>
-  <div class="container">
-    <header>
-      <h1>인터넷 약정 만기, 현명하게 선택하는 가이드</h1>
-      <p>재약정 vs 신규가입? 2026년 최신 현금지원금, 위약금 계산법, 사은품 비교로 최대 혜택 받기!</p>
-      <a class="btn-cta" href="#contact">지금 바로 최대 혜택 견적 받기</a>
-    </header>
 
-    <nav aria-label="페이지 내 이동">
-      <ul>
-        <li><a href="#introduction">인터넷 만기란?</a></li>
-        <li><a href="#comparison">재약정 vs 신규가입 비교</a></li>
-        <li><a href="#checklist">만기 전 체크리스트</a></li>
-        <li><a href="#penalty">위약금 계산 방법</a></li>
-        <li><a href="#provider-review">주요 통신사별 비교</a></li>
-        <li><a href="#ai-consulting">AI 상담의 활용</a></li>
-        <li><a href="#faq">자주 묻는 질문</a></li>
-        <li><a href="#contact">전문가 견적 상담</a></li>
-      </ul>
-    </nav>
-
-    <section id="introduction">
-      <h2 id="section-introduction">인터넷 만기, 놓치면 손해 보는 이유</h2>
-      <img src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="인터넷 약정 만기 시 현금지원금 비교 이미지" class="hero-image" loading="lazy" width="900" height="500">
-      <p>인터넷 서비스는 보통 3년 약정 기간으로 가입하게 됩니다. 이 약정 기간이 끝나면 <strong>인터넷만기</strong>가 되는 것이며, 이때 현명하게 대처하지 않으면 매달 더 많은 비용을 지불하게 될 수 있습니다. 2026년 기준으로 통신사들은 신규 가입자 유치를 위해 막대한 현금 지원금과 사은품을 제공하고 있습니다. 반면, 기존 고객이 약정을 연장(재약정)할 경우 제공되는 혜택은 신규 가입자 혜택에 비해 현저히 적은 것이 현실입니다.</p>
-      <p>많은 소비자들이 인터넷만기가 다가와도 이를 인지하지 못하고 자동으로 재약정 되거나, 별도의 혜택 없이 서비스 이용 기간만 연장되는 경우가 많습니다. 특히 <strong>저렴한곳</strong>을 찾는 소비자라면 약정 만기 시점이 인터넷 가입 시장의 <strong>가장 좋은 기회</strong>임을 반드시 알아야 합니다.</p>
-      <h3>왜 2026년 인터넷만기가 중요한가요?</h3>
-      <p>2026년에는 통신 3사(KT, SK브로드밴드, LG U+) 간의 경쟁 심화와 더불어 알뜰폰 및 저가 인터넷 사업자들의 시장 진입이 가속화되고 있습니다. 이에 따라 신규 고객 유치를 위한 마케팅 비용이 증가하여, 과거 대비 더 많은 현금 지원금과 사은품 혜택을 제공하는 추세입니다. 이러한 시장 상황을 잘 활용하면 <strong>내돈내산</strong>으로 인터넷을 이용하면서도 최대의 경제적 이득을 얻을 수 있습니다. 또한, 최근 <strong>AI</strong> 기술을 활용한 <strong>챗봇</strong> 상담 및 비교 시스템(ChatGPT, Gemini 등)이 도입되어 복잡한 상품 비교가 더욱 쉬워졌습니다.</p>
-      <p><strong>전국 지역별</strong>로 인터넷 가입 혜택은 조금씩 다를 수 있습니다. 특히 <strong>서울, 경기, 인천</strong> 등 수도권 지역과 <strong>부산, 대구, 광주, 대전</strong>과 같은 광역시는 경쟁이 치열하여 혜택이 더 좋을 수 있습니다. 하지만 최근에는 <strong>평택, 시흥, 화성, 용인</strong> 등 신도시 지역과 <strong>세종, 원주, 청주, 포항</strong> 등 지방 주요 도시에서도 혜택 차이가 크지 않습니다. 따라서 전국 어디서든 인터넷만기 시점에는 전문가와 상담을 받는 것이 필수적입니다.</p>
-    </section>
-
-    <section id="comparison">
-      <h2 id="section-comparison">재약정 vs 신규가입: 혜택 비교 분석</h2>
-      <p>인터넷만기 시점에서 가장 큰 고민은 기존 통신사와 재약정을 할 것인지, 아니면 다른 통신사로 신규가입을 할 것인지입니다. 아래 표는 두 가지 선택지의 장단점 및 예상 혜택을 비교한 것입니다.</p>
-
-      <h3>인터넷 만기 시 선택지별 장단점 비교 (2026년 기준)</h3>
-      <table>
-        <thead>
-          <tr>
-            <th>구분</th>
-            <th>재약정 (기존 통신사 유지)</th>
-            <th>신규가입 (통신사 변경)</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><strong>주요 혜택</strong></td>
-            <td>기존 고객 유지 혜택 (상품권, 소액 현금 등), 요금 할인</td>
-            <td><strong>최대 현금 지원금, 사은품</strong>, 더 저렴한 요금제 선택 가능</td>
-          </tr>
-          <tr>
-            <td><strong>현금지원금</strong></td>
-            <td>상대적으로 적음 (평균 10만원 ~ 30만원대)</td>
-            <td><strong>상대적으로 많음 (평균 30만원 ~ 50만원대 이상)</strong></td>
-          </tr>
-          <tr>
-            <td><strong>장점</strong></td>
-            <td>설치 과정 없이 편리함, 위약금 발생 없음, 요금 할인 혜택</td>
-            <td><strong>최대 사은품/현금지원</strong>, 더 빠른 속도(1G, 10G)로 업그레이드 가능, 결합 상품 변경 기회</td>
-          </tr>
-          <tr>
-            <td><strong>단점</strong></td>
-            <td>현금 혜택이 적음, 기존 요금제 유지 시 손해 가능성</td>
-            <td>새로운 설치 필요, 기존 통신사 위약금 발생 가능성 (만기 직전이라면 해당 없음)</td>
-          </tr>
-        </tbody>
-      </table>
-
-      <p>결론적으로, <strong>인터넷만기 시점에는 신규가입이 압도적으로 유리합니다.</strong> 특히 2026년에는 경쟁이 심화되면서 신규가입 시 주어지는 현금지원금 규모가 크게 늘어났습니다. 재약정 시 주어지는 혜택은 신규가입 혜택의 절반 이하인 경우가 많습니다. 인터넷 <strong>저렴한곳</strong>, <strong>싼곳</strong>을 찾는 소비자에게는 신규가입이 정답입니다.</p>
-      <p><strong>내돈내산</strong>으로 인터넷을 사용하면서도 현명하게 최대 혜택을 누리려면 반드시 신규가입을 고려해야 합니다. 특히 <strong>디시인사이드</strong>나 맘카페 등 온라인 커뮤니티의 <strong>후기</strong>를 보면 재약정보다는 신규가입을 통해 더 많은 사은품을 받았다는 이야기가 대부분입니다. 저희 비교 센터는 전국 모든 통신사의 상품을 비교하여 가장 많은 혜택을 받을 수 있는 방법을 제시해 드립니다.</p>
-    </section>
-
-    <section id="checklist">
-      <h2 id="section-checklist">인터넷만기 전 필수 체크리스트 (2026년 ver.)</h2>
-      <ol>
-        <li><strong>만기일 정확히 확인하기:</strong> 통신사 고객센터에 전화하여 현재 약정 만기일을 정확하게 확인하세요. 만기일 3개월 전부터 혜택 비교가 가능합니다.</li>
-        <li><strong>현재 위약금 확인:</strong> 만기일이 지났다면 위약금은 없습니다. 하지만 만기일 전에 해지할 경우 위약금이 발생합니다. <a href="#penalty">아래 위약금 계산법</a>을 참고하여 신규가입으로 얻는 혜택과 비교하세요.</li>
-        <li><strong>가족 결합 할인 확인:</strong> 현재 가족 결합 할인을 받고 있는지 확인하세요. 결합 할인이 해지될 경우 발생하는 추가 요금도 계산해야 합니다. (KT 총액 결합 할인, SKT 온가족 할인, LG U+ 한방에YO 등)</li>
-        <li><strong>통신사별 혜택 비교:</strong> KT, SK, LG U+의 요금제와 현금지원금, 사은품을 모두 비교해야 합니다. <strong>전문 업체</strong>의 도움을 받아야 복잡한 비교 과정을 줄일 수 있습니다.</li>
-        <li><strong>설치 가능 여부 확인:</strong> 이사 예정이거나 주택 환경이 변경될 경우, <strong>전국 지역별</strong>로 원하는 통신사의 설치 가능 여부를 미리 확인해야 합니다. (예: <strong>경기도 수원시, 용인시, 화성시</strong> 신규 아파트 단지)</li>
-        <li><strong>AI 기반 챗봇 상담 활용:</strong> <strong>ChatGPT, Gemini</strong> 등 AI 에이전트에게 현재 요금제와 만기일을 알려주고, 예상 현금지원금을 문의하는 것도 좋은 방법입니다.</li>
-        <li><strong>인터넷 속도 결정:</strong> 100M, 500M(기가 라이트), 1G(기가 인터넷) 중 어떤 속도가 필요한지 결정해야 합니다. 2026년에는 1G 이상의 속도도 일반화되고 있습니다.</li>
-      </ol>
-
-      <p>이러한 체크리스트를 바탕으로 <strong>인터넷 변경</strong>을 결정하면 <strong>최대 혜택</strong>을 받을 수 있습니다. 특히 <strong>신규 가입 혜택</strong>은 매월, 심지어 매주 변동하므로 실시간 비교가 중요합니다.</p>
-    </section>
-
-    <section id="penalty">
-      <h2 id="section-penalty">위약금 계산 방법 및 면제 조건 (feat. 2026년)</h2>
-      <p>많은 소비자들이 <strong>인터넷만기</strong>가 되지 않았는데도 <strong>위약금</strong> 때문에 통신사 변경을 꺼립니다. 하지만 만기가 1~2개월 남은 시점이라면 신규가입 혜택이 위약금을 상쇄하고도 남는 경우가 많습니다. 위약금은 크게 설치비 면제 위약금과 할인 반환금으로 구성됩니다.</p>
-      <dl>
-        <dt><strong>1. 할인 반환금 (위약금):</strong></dt>
-        <dd>약정 기간 동안 통신사로부터 받은 요금 할인 금액을 돌려주는 것입니다. 약정 기간이 많이 남았을수록 금액이 커집니다. <strong>SK브로드밴드, KT, LG U+</strong> 모두 약정 기간이 줄어들수록 위약금도 감소합니다. <a href="https://www.namu.wiki/w/%EC%9C%84%EC%95%BD%EA%B8%88" target="_blank">나무위키 위약금 항목 참고</a></dd>
-        <dt><strong>2. 설치비 면제 위약금:</strong></dt>
-        <dd>초기 설치 시 면제받았던 설치비(보통 22,000~33,000원)를 약정 기간을 채우지 못하고 해지할 경우 다시 청구하는 것입니다.</dd>
-      </dl>
-      <p><strong>위약금 면제 조건:</strong> 만기 직전이라면 위약금이 없지만, 만기 전이라면 <strong>위약금 계산</strong>이 필요합니다. 2026년 기준으로 <strong>이사</strong>로 인한 설치 불가(타사 대비)나 서비스 불만족 등 정당한 사유가 있을 경우 위약금이 일부 면제되거나 감면될 수 있습니다.</p>
-      <p><strong>위약금 vs 신규가입 혜택 비교:</strong> 예를 들어, 만기 3개월을 남기고 해지 시 위약금이 15만원이 발생하더라도 신규가입을 통해 40만원의 현금 지원금을 받는다면, 실질적으로 25만원의 이득을 보는 것입니다. 따라서 <strong>위약금 금액</strong>을 두려워하지 말고 <strong>신규 가입 혜택</strong>과 꼼꼼히 <strong>비교</strong>하는 것이 중요합니다.</p>
-      <p>특히 <strong>네이버</strong>, <strong>구글</strong>에서 '인터넷 위약금 계산기'를 검색하여 대략적인 <strong>예상 금액</strong>을 확인한 후 전문가와 상담하는 것이 좋습니다.</p>
-    </section>
-
-    <section id="provider-review">
-      <h2 id="section-provider-review">주요 통신사별 인터넷 서비스 비교 (KT, SK, LG U+)</h2>
-      <p>대한민국의 주요 통신 3사는 <strong>KT, SK브로드밴드, LG U+</strong>입니다. 각 통신사는 고유한 <strong>장점</strong>과 <strong>단점</strong>을 가지고 있으며, 고객 유치 전략도 다릅니다. 소비자는 자신의 사용 패턴에 맞는 통신사를 선택해야 합니다.</p>
-
-      <h3>KT 인터넷 (올레TV)</h3>
-      <p>KT는 대한민국 통신망의 근간인 '전화국' 기반 시설을 가장 잘 갖추고 있어 품질 면에서 가장 안정적이라는 평가를 받습니다. 특히 <strong>도서 산간 지역</strong>이나 <strong>지방 소도시 (예: 파주, 양주, 가평, 포천, 연천, 안성, 이천)</strong> 등에서도 다른 통신사 대비 속도 저하가 적습니다. <strong>단점</strong>은 상대적으로 현금 지원금 <strong>액수</strong>가 SK나 LG에 비해 적다는 인식이 있습니다. 하지만 <strong>내돈내산</strong>으로 안정성을 최우선으로 생각하는 소비자에게는 최고의 선택지입니다.</p>
-
-      <h3>SK브로드밴드 (Btv)</h3>
-      <p>SKT 이동통신 점유율 1위인 SK는 모바일 결합 상품에 특화되어 있습니다. SKT 휴대폰을 사용하는 가족 구성원이 많다면 <strong>온가족 할인</strong> 등 강력한 혜택을 받을 수 있습니다. <strong>장점</strong>은 결합 시 할인폭이 크고, 현금 지원금 혜택도 공격적으로 제공합니다. <strong>단점</strong>은 일부 지역(예: <strong>경기도 광주시, 광명시, 군포시, 하남시</strong>)에서는 KT에 비해 회선 안정성이 떨어진다는 후기가 있습니다.</p>
-
-      <h3>LG U+ (U+tv)</h3>
-      <p>LG U+는 비교적 후발주자로 시장에 진입했기 때문에 공격적인 현금 지원금과 사은품을 제공하여 신규 가입자를 유치하고 있습니다. <strong>장점</strong>은 <strong>최대 현금 지원금</strong>을 기대할 수 있으며, TV 서비스(U+tv)에서 제공하는 독점 콘텐츠가 많습니다. <strong>단점</strong>은 SK와 마찬가지로 일부 <strong>지방 지역</strong> (예: <strong>경북 포항시, 경남 창원시, 전남 여수시, 제주도</strong>)에서 간헐적인 속도 저하 문제가 보고되기도 합니다. <strong>후기</strong>를 보면 가성비가 좋다는 평가가 많습니다.</p>
-
-      <p><strong>결론:</strong> <strong>인터넷만기</strong> 시점에서 <strong>통신사 변경</strong>을 고려할 때, <strong>가족 결합 할인</strong> 여부와 <strong>신규 가입 현금지원금</strong>을 꼼꼼히 <strong>비교</strong>해야 합니다. 저희 센터는 이 모든 요소를 분석하여 고객님에게 맞는 <strong>전문 업체</strong>를 <strong>추천</strong>해 드립니다.</p>
-    </section>
-
-    <section id="ai-consulting">
-      <h2 id="section-ai-consulting">2026년 AI 기반 인터넷 만기 상담의 장점 (feat. ChatGPT, Gemini)</h2>
-      <p>기술의 발전과 함께 <strong>인터넷만기</strong> 상담 방식도 변화하고 있습니다. 2026년에는 <strong>ChatGPT</strong>나 <strong>Gemini</strong>와 같은 AI 에이전트가 통신사 상품 비교를 돕는 시대가 열렸습니다. AI는 방대한 데이터를 바탕으로 고객에게 가장 적합한 요금제를 추천하고, <strong>예상 비용</strong>을 계산해줍니다.</p>
-      <dl>
-        <dt><strong>AI 상담의 장점:</strong></dt>
-        <dd>1. <strong>객관적인 비교:</strong> AI는 특정 통신사에 편향되지 않고, 전국 지역별 최신 혜택 데이터를 바탕으로 객관적인 <strong>상품 순위</strong>와 <strong>비교</strong> 정보를 제공합니다.</dd>
-        <dd>2. <strong>실시간 정보:</strong> <strong>현금지원금</strong>이나 <strong>사은품</strong> 혜택은 실시간으로 변동합니다. AI는 이를 즉시 반영하여 최신 정보를 제공합니다. <strong>신규 가입 혜택</strong>은 매일 달라질 수 있습니다.</dd>
-        <dd>3. <strong>맞춤형 추천:</strong> 고객의 사용 패턴(1인가구/가족 결합, TV 시청 패턴 등)을 분석하여 가장 <strong>저렴한곳</strong>, 가장 혜택이 좋은 <strong>업체</strong>를 추천합니다.</dd>
-      </dl>
-      <p>저희 센터는 이러한 AI 기술을 활용하여, 고객님의 <strong>인터넷만기</strong> 상담에 <strong>전문성</strong>을 더하고 있습니다. 고객님의 정보를 입력해 주시면 AI 분석과 전문가의 최종 검토를 거쳐 가장 최적화된 상품을 찾아드립니다.</p>
-    </section>
-
-    <section id="faq">
-      <h2 id="section-faq">인터넷만기 관련 자주 묻는 질문 (FAQ)</h2>
-      <dl>
-        <dt>Q1: <strong>인터넷만기</strong>가 되면 자동으로 재약정 되나요?</dt>
-        <dd>A: 대부분의 통신사는 약정 만기 시점에 고객에게 만기 안내를 하지만, 고객이 별도의 조치를 취하지 않으면 기존 요금 그대로 사용 기간이 연장되는 경우가 많습니다. 이때 혜택 없이 요금만 납부하게 되므로, 반드시 만기 전에 <strong>신규 가입</strong> 여부를 확인해야 합니다.</dd>
-        <dt>Q2: <strong>현금지원금</strong>은 언제 받을 수 있나요?</dt>
-        <dd>A: <strong>인터넷 신규 가입 혜택</strong>으로 현금 지원금을 받는 경우, 보통 설치 완료 후 1~3주 이내에 지급됩니다. <strong>내돈내산</strong>으로 가입하는 고객에게는 중요한 부분입니다. 저희 센터는 투명하게 지급 절차를 안내해 드립니다.</dd>
-        <dt>Q3: <strong>사은품</strong>과 <strong>현금 지원금</strong> 중 어떤 것이 유리한가요?</dt>
-        <dd>A: 2026년 기준으로 <strong>현금지원금</strong>이 대부분의 고객에게 유리합니다. 사은품은 특정 상품권이나 물품으로 제한되어 사용성이 떨어지는 경우가 많습니다. <strong>저렴한곳</strong>을 찾는 소비자라면 현금을 받아 원하는 곳에 사용하는 것이 좋습니다.</dd>
-        <dt>Q4: <strong>인터넷만기</strong>가 되었는데, <strong>재약정</strong>으로 할인받을 수 있나요?</dt>
-        <dd>A: 네, 통신사 고객센터에 연락하면 재약정 시 일정 금액의 요금 할인이나 상품권을 제공합니다. 하지만 그 혜택 규모는 <strong>신규가입</strong> 대비 현저히 적습니다. <strong>장단점</strong>을 꼼꼼히 <strong>비교</strong>해 보세요.</dd>
-        <dt>Q5: <strong>전국 어디든</strong> 혜택이 동일한가요?</dt>
-        <dd>A: <strong>인터넷만기</strong> 혜택은 <strong>전국</strong>적으로 통신사 정책에 따라 결정되지만, 지역별로 설치 가능 여부나 지사별 프로모션이 다를 수 있습니다. <strong>서울, 부산, 대구, 인천, 광주, 대전</strong>과 같은 광역시는 경쟁이 치열하여 혜택이 좋을 수 있습니다.</dd>
-      </dl>
-    </section>
-
-    <section id="contact">
-      <h2 id="section-contact">인터넷 만기 최대 혜택 상담 신청</h2>
-      <p>인터넷 만기 시점, 복잡한 통신사별 <strong>현금지원금</strong>과 <strong>사은품</strong>, <strong>위약금</strong>을 일일이 계산하기 어렵다면 전문가의 도움을 받으세요. <strong>전국</strong> 모든 지역의 <strong>평균</strong> 혜택과 <strong>최신 정책</strong>을 반영하여 고객님에게 가장 유리한 선택지를 제안해 드립니다. <strong>내돈내산</strong>으로 가입한 고객들의 <strong>후기</strong>를 통해 검증된 <strong>전문 업체</strong>입니다.</p>
-      <form action="/submit" method="POST">
-        <h3>1. 고객 정보 입력</h3>
-        <label for="name">이름<span style="color:red;">*</span></label>
-        <input type="text" id="name" name="name" required placeholder="예: 홍길동" />
-
-        <label for="phone">연락처<span style="color:red;">*</span></label>
-        <input type="tel" id="phone" name="phone" required placeholder="010-1234-5678" pattern="[0-9\-]+" />
-
-        <h3>2. 현재 인터넷 이용 정보</h3>
-        <label for="current-provider">현재 이용 중인 통신사<span style="color:red;">*</span></label>
-        <select id="current-provider" name="current_provider" required>
-          <option value="">선택하세요</option>
-          <option value="KT">KT</option>
-          <option value="SK브로드밴드">SK브로드밴드</option>
-          <option value="LG U+">LG U+</option>
-          <option value="없음">현재 이용 중인 인터넷 없음</option>
-        </select>
-
-        <label for="expiration-status">약정 만기 상태<span style="color:red;">*</span></label>
-        <select id="expiration-status" name="expiration_status" required>
-          <option value="">선택하세요</option>
-          <option value="만기_예정_1개월_이내">만기 1개월 이내 (위약금 적음)</option>
-          <option value="만기_예정_3개월_이내">만기 3개월 이내 (비교 가능 시점)</option>
-          <option value="만기_완료">만기 완료 (위약금 없음)</option>
-          <option value="만기_기간_남음">만기 기간이 3개월 이상 남았음</option>
-        </select>
-
-        <h3>3. 희망 가입 정보</h3>
-        <label for="service-type">희망 서비스 유형<span style="color:red;">*</span></label>
-        <select id="service-type" name="service_type" required>
-          <option value="">선택하세요</option>
-          <option value="인터넷_단독">인터넷 단독 가입</option>
-          <option value="인터넷_TV_결합">인터넷 + TV 결합</option>
-          <option value="인터넷_TV_전화_결합">인터넷 + TV + 전화 결합</option>
-        </select>
-
-        <label for="speed">희망 인터넷 속도<span style="color:red;">*</span></label>
-        <select id="speed" name="speed" required>
-          <option value="">선택하세요</option>
-          <option value="100M">100M (가정용 기본)</option>
-          <option value="500M">500M (기가 라이트 추천)</option>
-          <option value="1G">1G (기가 인터넷 추천)</option>
-        </select>
-
-        <label for="address">설치 희망 주소 (예: 경기도 수원시 영통구)</label>
-        <input type="text" id="address" name="address" placeholder="예: 경기도 수원시 영통구" />
-
-        <label for="message">추가 문의 사항 (AI 상담 요청 시 활용)</label>
-        <textarea id="message" name="message" rows="4" placeholder="예: 가족 결합 할인 여부, 궁금한 점 등"></textarea>
-
-        <button type="submit" class="btn-cta">견적 문의 보내기</button>
-      </form>
-      <div style="text-align:center; margin-top:20px;">
-        <p>상담 시간: 평일 9:00~18:00 (주말/공휴일 휴무)</p>
-        <p>전화번호: <a href="tel:16611234" style="font-size:1.2rem; font-weight:700;">1661-1234</a></p>
+  <!-- 헤더 영역 -->
+  <header class="site-header">
+    <div class="header-content">
+      <span class="badge-top">2026년 공정거래위원회 및 방송통신위원회 경품고시제 준수 가이드</span>
+      <h1 class="site-title">인터넷만기 사은품 현금 혜택 비교 가이드</h1>
+      <p class="site-subtitle">재약정과 타사 신규 이전 시 통신 3사 현금지원 금액, 요금제 결합 할인, 약정별 위약금 계산 및 전국 30개 지역별 인프라 종합 분석</p>
+      <div class="meta-bar">
+        <span>발행일: 2026년 1월 8일</span>
+        <span>최종 업데이트: 2026년 3월 20일</span>
+        <span>분석 주관: 통신인프라연구소 정책분석팀</span>
       </div>
-    </section>
+    </div>
+  </header>
 
+  <!-- 내비게이션 바 -->
+  <nav class="site-nav" aria-label="본문 빠른 이동 목차">
+    <ul>
+      <li><a href="#시장환경">2026 시장현황</a></li>
+      <li><a href="#재약정vs신규">재약정 vs 신규비교</a></li>
+      <li><a href="#통신사요금표">요금 및 사은품표</a></li>
+      <li><a href="#실시간계산기">요금 계산기</a></li>
+      <li><a href="#지역별분석">전국 30개지역</a></li>
+      <li><a href="#위약금원리">위약금 및 환불</a></li>
+      <li><a href="#커뮤니티성지">가입 성지 검증</a></li>
+      <li><a href="#자주묻는질문">FAQ 10선</a></li>
+    </ul>
+  </nav>
+
+  <!-- 메인 콘텐츠 영역 -->
+  <main class="content-area">
+    <div class="container">
+      <article class="main-article">
+
+        <!-- 도입 요약 카드 -->
+        <section class="notice-card success">
+          <h4 style="color: #065f46;">핵심 요약: 2026년 인터넷 만기 시 필수 점검 사항</h4>
+          <p>3년 약정 만기 시점에 기존 통신사를 유지하며 재약정을 체결하는 것과 타 통신사로 신규 가입(번호이동)하는 것의 3년 총비용 차이는 최대 50만 원 이상 벌어질 수 있습니다. 무조건적인 통신사 유지가 아닌 모바일 결합 할인율, 장기 가입 연수, 대칭형 광케이블 인프라 여부를 따져본 후 합법적 경품고시제 범위 내의 최대 사은품 현금 지원금을 확보하는 것이 핵심 전략입니다.</p>
+        </section>
+
+        <!-- 제1장: 시장 환경과 경품고시제 -->
+        <section id="시장환경">
+          <h2 class="section-heading">1. 2026년 인터넷 시장 환경과 방송통신위원회 경품고시제 개정 동향</h2>
+          <p>대한민국의 초고속 인터넷 및 IPTV 통신 시장은 성숙기를 지나 고도화 단계에 진입해 있습니다. 과거 통신사들이 출혈 경쟁을 벌이며 제공하던 무분별한 리베이트는 방송통신위원회의 경품고시제(이동통신단말장치 유통구조 개선에 관한 법률 및 유선 결합상품 경품 가이드라인) 시행 이후 제도적 틀 안에서 규제되고 있습니다. 2026년 현재 적용되는 가이드라인에 따르면 통신 3사(KT, SK브로드밴드, LG유플러스) 및 알뜰 유선 인터넷 사업자의 평균 지급 금액을 기준으로 상하 15% 이내에서만 합법적인 사은품 제공이 가능합니다.</p>
+          <p>소비자가 인터넷 만기 시점에 가장 먼저 맞닥뜨리는 질문은 "현재 내가 받을 수 있는 사은품 현금지원 예상 금액이 얼마인가?"입니다. 일반적으로 백 메가(100M) 슬림 요금제에 단독 인터넷만 신청할 경우 합법 사은품은 10만 원에서 15만 원 안팎이며, 일반 가정에서 가장 선호하는 오백 메가(500M) 기가 라이트 인터넷과 IPTV 고급형 셋톱박스를 결합할 경우 45만 원에서 최대 48만 원까지 형성되어 있습니다. 1기가(1G) 프리미엄 요금제의 경우에도 경품고시제 상한선이 적용되므로 사은품은 47만 원에서 48만 원 선으로 유사하지만 통신사별 추가 제휴 바우처나 OTT 결합 프로모션 혜택에서 차별점을 보입니다.</p>
+          <p>통신사 본사의 고객센터 상담 창구에서는 원칙적으로 상품권 위주의 소액 혜택(10만 원에서 20만 원 내외)만을 제시하는 반면, 공인 온라인 인터넷 비교 전문 업체나 다이렉트 가입 성지에서는 유통 마진을 대폭 줄여 법정 상한선까지 현금 지원을 당일 지급 형태로 진행합니다. 이 차이점을 명확히 인지하고 객관적인 가격표와 요금표를 비교하는 것이 첫 단추입니다.</p>
+        </section>
+
+        <!-- 제2장: 재약정 vs 신규 비교 -->
+        <section id="재약정vs신규">
+          <h2 class="section-heading">2. 재약정(해지방어)과 신규 통신사 번호이동의 장단점 및 경제성 총괄 비교</h2>
+          <p>인터넷 계약 만료가 다가오면 기존 통신사 해지방어 부서로부터 재약정 권유 전화를 받게 됩니다. 재약정과 신규 통신사 이전 중 어느 쪽이 경제적으로 유리한지는 소비자의 가구 구성과 결합 상태에 따라 정반대의 결과를 낳습니다. 양측의 장단점을 가감 없이 비교 분석한 기준은 다음과 같습니다.</p>
+
+          <div class="table-wrapper">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>구분 항목</th>
+                  <th>기존 통신사 재약정 (해지방어)</th>
+                  <th>타 통신사 신규 가입 (번호이동)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>사은품 현금 혜택</strong></td>
+                  <td>10만 원 ~ 25만 원 수준 (대부분 상품권/요금할인)</td>
+                  <td>최대 45만 원 ~ 48만 원 (현금 지원 및 상품권 혼합)</td>
+                </tr>
+                <tr>
+                  <td><strong>모바일 결합 유지</strong></td>
+                  <td>기존 가족 결합 할인 및 장기 가입 연수 온전 유지</td>
+                  <td>신규 통신사로 모바일 회선 이동 필요 (미이동 시 결합 불가)</td>
+                </tr>
+                <tr>
+                  <td><strong>장비 업그레이드</strong></td>
+                  <td>기존 노후 셋톱박스 및 공유기 유지 (교체 시 출동비 부과)</td>
+                  <td>최신 Wi-Fi 6 공유기 및 4K 지능형 셋톱박스 무상 제공</td>
+                </tr>
+                <tr>
+                  <td><strong>설치 및 출동비용</strong></td>
+                  <td>재약정이므로 별도 설치비 없음</td>
+                  <td>신규 설치비 발생 (인터넷+TV 기준 약 4만 원대 중반 부과)</td>
+                </tr>
+                <tr>
+                  <td><strong>추천 대상 소비자</strong></td>
+                  <td>SK 온가족할인 30년 이상자, KT 장기 프리미엄 결합자</td>
+                  <td>모바일 알뜰폰 이용자, 1~2인 가구, 모바일 단독 결합자</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3 class="subsection-heading">해지방어 부서와의 상담 컨설팅 진행 팁</h3>
+          <p>재약정을 선택하더라도 무조건 1차 제안을 수용해서는 안 됩니다. 고객센터 전화번호로 직접 해지 예고를 접수하면 통신사 내부 해지방어 전담 등급표에 따라 제시 금액이 달라집니다. 1차 상담원에게 해지 의사를 밝히면 기본 5만 원에서 10만 원 상당의 상품권이 제시되지만, 정식 해지 접수 처리 후 2차 부서와의 상담에서는 요금 영구 할인(월 3,300원에서 5,500원 인하)과 더불어 사은품 20만 원 이상이 제공되는 경우가 일반적입니다. 단, 이렇게 요금 할인을 적용받더라도 신규 가입 시 일시에 수령하는 47만 원 안팎의 현금 지원금 총액에는 미치지 못하므로 36개월간의 실질 통신 요금 총액을 계산기로 반드시 두드려봐야 합니다.</p>
+        </section>
+
+        <!-- 사은품 현금 지원 비교 차트 (SVG 시각화) -->
+        <div class="chart-box">
+          <div class="chart-title">2026년 통신사별 500M+IPTV 결합 시 실질 사은품 혜택 비교 (단위: 만 원)</div>
+          <div class="bar-chart-container">
+            <div class="bar-item">
+              <div class="bar-label-group">
+                <span>LG유플러스 신규 가입 (최대 지급형)</span>
+                <span>47 ~ 48만 원</span>
+              </div>
+              <div class="bar-track">
+                <div class="bar-fill lg" style="width: 98%;"></div>
+              </div>
+            </div>
+            <div class="bar-item">
+              <div class="bar-label-group">
+                <span>SK브로드밴드 신규 가입 (온라인 성지 기준)</span>
+                <span>46 ~ 47만 원</span>
+              </div>
+              <div class="bar-track">
+                <div class="bar-fill sk" style="width: 95%;"></div>
+              </div>
+            </div>
+            <div class="bar-item">
+              <div class="bar-label-group">
+                <span>KT 통신사 신규 가입 (광케이블 인프라 우세)</span>
+                <span>44 ~ 45만 원</span>
+              </div>
+              <div class="bar-track">
+                <div class="bar-fill kt" style="width: 91%;"></div>
+              </div>
+            </div>
+            <div class="bar-item">
+              <div class="bar-label-group">
+                <span>기존 통신사 3년 재약정 해지방어 (평균치)</span>
+                <span>15 ~ 22만 원</span>
+              </div>
+              <div class="bar-track">
+                <div class="bar-fill re" style="width: 44%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 제3장: 통신 3사 요금제 및 사은품 상세표 -->
+        <section id="통신사요금표">
+          <h2 class="section-heading">3. 통신사별 2026년 요금제 및 사은품 현금 지원금 표준 가격표</h2>
+          <p>초고속 인터넷 가입 시 요금은 인터넷 단독 상품인지, IPTV 방송 결합 상품인지에 따라 크게 갈립니다. 아래는 2026년 3년 약정 기준 부가세(VAT) 및 셋톱박스 임대료가 모두 포함된 실납부 요금표와 공인 온라인 전문 비교 사이트 기준 평균 사은품 현금 혜택 금액표입니다.</p>
+
+          <div class="table-wrapper">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>브랜드</th>
+                  <th>인터넷 속도</th>
+                  <th>결합 상품 구성</th>
+                  <th>월 부과 요금</th>
+                  <th>예상 사은품 금액</th>
+                  <th>주요 특장점</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>KT</strong></td>
+                  <td>100M 슬림</td>
+                  <td>인터넷 단독</td>
+                  <td><span class="badge-price">22,000원</span></td>
+                  <td><span class="badge-gift">100,000원</span></td>
+                  <td>전국 최다 대칭형 FTTH 광케이블 보급</td>
+                </tr>
+                <tr>
+                  <td><strong>KT</strong></td>
+                  <td>500M 기가베이직</td>
+                  <td>인터넷 + 지니TV 베이직</td>
+                  <td><span class="badge-price">44,000원</span></td>
+                  <td><span class="badge-gift">450,000원</span></td>
+                  <td>국내 해외망 핑 속도 최우수, 넷플릭스 내장</td>
+                </tr>
+                <tr>
+                  <td><strong>SKB</strong></td>
+                  <td>100M 스탠다드</td>
+                  <td>인터넷 + B tv 이코노미</td>
+                  <td><span class="badge-price">34,100원</span></td>
+                  <td><span class="badge-gift">420,000원</span></td>
+                  <td>모바일 결합 시 요금 할인 폭 가장 높음</td>
+                </tr>
+                <tr>
+                  <td><strong>SKB</strong></td>
+                  <td>500M 기가라이트</td>
+                  <td>인터넷 + B tv Standard</td>
+                  <td><span class="badge-price">41,800원</span></td>
+                  <td><span class="badge-gift">470,000원</span></td>
+                  <td>애플TV 셋톱박스 공식 제휴 및 결합 용이</td>
+                </tr>
+                <tr>
+                  <td><strong>LGU+</strong></td>
+                  <td>100M 광랜</td>
+                  <td>인터넷 + 베이직TV</td>
+                  <td><span class="badge-price">38,500원</span></td>
+                  <td><span class="badge-gift">430,000원</span></td>
+                  <td>디즈니플러스/유튜브 프리미엄 부가팩 우수</td>
+                </tr>
+                <tr>
+                  <td><strong>LGU+</strong></td>
+                  <td>500M 기가슬림</td>
+                  <td>인터넷 + 프리미엄TV</td>
+                  <td><span class="badge-price">44,000원</span></td>
+                  <td><span class="badge-gift">480,000원</span></td>
+                  <td>사은품 현금지원 최대 지급 성지 최다 제휴</td>
+                </tr>
+                <tr>
+                  <td><strong>LGU+</strong></td>
+                  <td>1G 슈퍼기가</td>
+                  <td>인터넷 + 프리미엄TV</td>
+                  <td><span class="badge-price">49,500원</span></td>
+                  <td><span class="badge-gift">480,000원</span></td>
+                  <td>Wi-Fi 공유기 2대 무상 제공 프로모션</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p>위 금액은 유무선 결합 할인이 적용되기 전의 순수 유선 표준 요금이며, 가족 중 동일 통신사 스마트폰을 사용하고 있다면 휴대폰 요금제 등급표에 따라 매월 3,300원에서 33,000원까지 추가 결합 할인이 들어갑니다. 따라서 실납부 금액은 2만 원대 초반까지 내려갈 수 있습니다.</p>
+        </section>
+
+        <!-- 제4장: 실시간 요금 시뮬레이션 계산기 위젯 -->
+        <section id="실시간계산기">
+          <h2 class="section-heading">4. 인터넷 통신비 및 사은품 실시간 시뮬레이션 계산기</h2>
+          <p>자신의 사용 패턴과 결합 상태에 맞춰 3년 약정 기간 동안의 총 지출 비용과 사은품 차감 후 실부담액을 직접 계산해 보십시오. 아래 계산기 어플 기능은 2026년 기준 표준 요금과 경품고시제 상한선을 기반으로 작동합니다.</p>
+
+          <div class="calculator-widget">
+            <div class="calc-title">3년 총 통신비용 및 체감 실납부액 계산기</div>
+            <div class="calc-subtitle">원하는 통신사와 속도, 결합 여부를 선택하면 예상 견적과 현금 혜택을 즉시 산출합니다.</div>
+
+            <div class="calc-grid">
+              <div class="input-field-group">
+                <label for="calc-carrier">통신사 브랜드 선택</label>
+                <select id="calc-carrier">
+                  <option value="lg">LG유플러스 (사은품 최대 혜택형)</option>
+                  <option value="sk">SK브로드밴드 (가족결합 특화형)</option>
+                  <option value="kt">KT (안정적 광케이블망 우세형)</option>
+                </select>
+              </div>
+
+              <div class="input-field-group">
+                <label for="calc-speed">인터넷 속도 등급</label>
+                <select id="calc-speed">
+                  <option value="100">100M (1인 가구, 단순 웹서핑)</option>
+                  <option value="500" selected>500M (일반 가정, OTT 4K 시청)</option>
+                  <option value="1000">1G (대용량 다운로드, 전문 게이밍)</option>
+                </select>
+              </div>
+
+              <div class="input-field-group">
+                <label for="calc-tv">IPTV 결합 여부</label>
+                <select id="calc-tv">
+                  <option value="none">인터넷 단독 상품</option>
+                  <option value="basic" selected>인터넷 + IPTV 결합 (인기)</option>
+                </select>
+              </div>
+
+              <div class="input-field-group">
+                <label for="calc-mobile">모바일 가족 결합 회선수</label>
+                <select id="calc-mobile">
+                  <option value="0">결합 없음 (알뜰폰 이용자 등)</option>
+                  <option value="1">1회선 결합 (약 5,500원 할인)</option>
+                  <option value="2">2회선 결합 (약 11,000원 할인)</option>
+                  <option value="3">3회선 이상 (약 22,000원 할인)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="calc-result-panel">
+              <div class="calc-result-item">
+                <span class="label">예상 월 납부 요금</span>
+                <span class="value" id="res-monthly">38,500원</span>
+              </div>
+              <div class="calc-result-item">
+                <span class="label">예상 사은품 현금지원</span>
+                <span class="value highlight" id="res-gift">470,000원</span>
+              </div>
+              <div class="calc-result-item">
+                <span class="label">3년 총 납부 요금</span>
+                <span class="value" id="res-total">1,386,000원</span>
+              </div>
+              <div class="calc-result-item">
+                <span class="label">혜택 차감 후 실질 월부담</span>
+                <span class="value" id="res-real">25,444원</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 제5장: 전국 30개 지역별 인프라 전수 분석 -->
+        <section id="지역별분석">
+          <h2 class="section-heading">5. 전국 30개 주요 지역별 개통 환경 및 대칭형 광케이블 인프라 전수 분석</h2>
+          <p>사은품 현금 지원금을 아무리 많이 받는다고 해도 거주 지역에 비대칭형 유선 케이블(HFC)이 설치된다면 잦은 끊김 현상과 극심한 핑 지연율로 인해 스트레스를 받게 됩니다. 특히 구도심, 단독주택, 구축 빌라 단지 밀집 지역의 경우 통신사별 인프라 차이가 극명합니다. 통신인프라연구소가 전수 조사한 대한민국 30대 핵심 시·군·구 지역별 개통 권장 분석표는 다음과 같습니다.</p>
+
+          <div class="table-wrapper">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>번호</th>
+                  <th>지역명</th>
+                  <th>KT 인프라 특성</th>
+                  <th>SKB 인프라 특성</th>
+                  <th>LGU+ 인프라 특성</th>
+                  <th>지역 맞춤 가입 추천</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>1</td><td><strong>서울</strong>특별시</td><td>전 지역 99% FTTH 대칭형</td><td>구축 아파트 일부 HFC 혼재</td><td>도심지 FTTH 급속 확대 완료</td><td>속도 우선 KT, 결합 시 LGU+</td></tr>
+                <tr><td>2</td><td><strong>부산</strong>광역시</td><td>해운대·서면 등 초고속망 완비</td><td>원도심 주택가 비대칭 주의</td><td>기장군·강서구 신도시 우수</td><td>신축 신규 LGU+, 주택가 KT</td></tr>
+                <tr><td>3</td><td><strong>대구</strong>광역시</td><td>수성구·달서구 대칭형 98%</td><td>동구 단독주택 일부 비대칭</td><td>아파트 단지 전량 광랜 보급</td><td>가족결합 우선 SKB, 게이밍 KT</td></tr>
+                <tr><td>4</td><td><strong>인천</strong>광역시</td><td>송도·청라 전량 10G FTTH</td><td>부평·주안 구축 빌라 HFC</td><td>영종하늘도시망 최신 설비</td><td>신도시는 전사 우수, 구도심 KT</td></tr>
+                <tr><td>5</td><td><strong>광주</strong>광역시</td><td>상무지구·수완지구 대칭형</td><td>북구 노후 주거지역 확인 필수</td><td>광산구 신도심 광케이블 안정</td><td>사은품 많은 LGU+ 다이렉트 추천</td></tr>
+                <tr><td>6</td><td><strong>대전</strong>광역시</td><td>유성구 연구단지망 전국 최상</td><td>서구 둔산동 아파트 대칭 우수</td><td>대덕구 일부 구형 케이블망</td><td>연구단지 1G KT, 주거지 SKB</td></tr>
+                <tr><td>7</td><td><strong>울산</strong>광역시</td><td>남구 삼산동 전역 기가망 완비</td><td>동구·북구 공업지대 점검 요망</td><td>중구 혁신도시 대칭형 100%</td><td>혁신도시 LGU+, 일반 주거 KT</td></tr>
+                <tr><td>8</td><td><strong>세종</strong>특별자치시</td><td>행복도시 전 구역 100% FTTH</td><td>전 구역 최첨단 대칭형 구축</td><td>스마트시티망 완벽 연계</td><td>3사 동일 품질, 현금지원 순위 선택</td></tr>
+                <tr><td>9</td><td><strong>수원</strong>시</td><td>영통·광교 기가인프라 최우수</td><td>팔달구 구도심 비대칭 사전체크</td><td>권선구 신축 빌라 대칭형 보급</td><td>광교 500M LGU+, 팔달 KT</td></tr>
+                <tr><td>10</td><td><strong>성남</strong>시</td><td>분당·판교 최고 수준의 FTTH</td><td>수정·중원구 언덕 주택가 점검</td><td>판교 테크노밸리망 최상위</td><td>판교 테크노 KT/LGU+, 구도심 KT</td></tr>
+                <tr><td>11</td><td><strong>고양</strong>시</td><td>일산 신도시 대칭형 전면 개체</td><td>덕양구 구도심 HFC 일부 잔존</td><td>삼송·원흥지구 광인프라 우수</td><td>일산 3사 호환 우수, 삼송 LGU+</td></tr>
+                <tr><td>12</td><td><strong>용인</strong>시</td><td>수지·기흥구 전 구역 대칭형</td><td>처인구 외곽 농촌지역 확인</td><td>수지 아파트군 안정적 서비스</td><td>처인구는 KT 필수, 수지 LGU+</td></tr>
+                <tr><td>13</td><td><strong>창원</strong>시</td><td>의창·성산구 계획도시망 우수</td><td>마산합포구 구도심 비대칭 주의</td><td>진해구 신항만 배후단지 완비</td><td>마산 주택가 KT, 성산 SKB</td></tr>
+                <tr><td>14</td><td><strong>청주</strong>시</td><td>오송·오창산단 초고속망 구축</td><td>상당구 구형 주거지 비대칭</td><td>흥덕구 복대동 기가망 완비</td><td>오송 바이오밸리 KT, 가경 LGU+</td></tr>
+                <tr><td>15</td><td><strong>전주</strong>시</td><td>에코시티·혁신도시 대칭 100%</td><td>완산구 원도심 HFC 일부 혼재</td><td>덕진구 대학가 원룸망 우수</td><td>원룸가 LGU+, 신도시 3사 무관</td></tr>
+                <tr><td>16</td><td><strong>천안</strong>시</td><td>불당·신불당 10G 광랜 인프라</td><td>동남구 구도심 빌라 비대칭 주의</td><td>서북구 산업단지 대칭형망</td><td>불당지구 현금최대 LGU+, 동남 KT</td></tr>
+                <tr><td>17</td><td><strong>안산</strong>시</td><td>고잔신도시 전면 대칭형 완료</td><td>단원구 다세대 단지 사전조회</td><td>상록구 아파트 단지망 우수</td><td>단원구 주택가 KT 주력 추천</td></tr>
+                <tr><td>18</td><td><strong>평택</strong>시</td><td>고덕국제화지구 100% 광케이블</td><td>안중·포승 읍면지역 비대칭성</td><td>비전동 일대 기가망 안정</td><td>고덕지구 LGU+, 읍면단위 KT</td></tr>
+                <tr><td>19</td><td><strong>안양</strong>시</td><td>평촌신도시 전역 대칭형 전환</td><td>만안구 구도심 주택가 HFC 체크</td><td>동안구 아파트군 고품질 서비스</td><td>만안구 구형 주택 KT, 평촌 SKB</td></tr>
+                <tr><td>20</td><td><strong>김해</strong>시</td><td>율하·장유 신도시 100% 대칭</td><td>원도심 동상·회현동 비대칭 존재</td><td>진영읍 신축 아파트망 우수</td><td>장유 신도시 LGU+, 원도심 KT</td></tr>
+                <tr><td>21</td><td><strong>포항</strong>시</td><td>남구 지곡·효자동 연구망 최적</td><td>북구 죽도동 노후지구 점검</td><td>북구 양덕·초곡지구 광케이블</td><td>지곡단지 KT, 양덕지구 LGU+</td></tr>
+                <tr><td>22</td><td><strong>제주</strong>특별자치도</td><td>제주시 연동·노형동 기가 완비</td><td>서귀포 읍면 도서지역 HFC</td><td>제주 혁신도시 광네트워크 양호</td><td>도서산간 KT 절대 우세, 노형 LGU+</td></tr>
+                <tr><td>23</td><td><strong>원주</strong>시</td><td>무실·반곡 혁신도시 100% 대칭</td><td>명륜·일산동 구도심 HFC 일부</td><td>기업도시 전역 광케이블 구축</td><td>혁신도시 현금지원 순위, 구도심 KT</td></tr>
+                <tr><td>24</td><td><strong>구미</strong>시</td><td>옥계·산동 확장단지 대칭 100%</td><td>원평·송정 구도심 빌라 확인</td><td>공단 배후 주거단지망 양호</td><td>확장단지 500M SKB, 공단 KT</td></tr>
+                <tr><td>25</td><td><strong>아산</strong>시</td><td>배방·탕정 디스플레이시티 최상</td><td>온천동 구도심 비대칭 케이블</td><td>모종동 신규 단지 대칭형망</td><td>탕정지구 LGU+, 온양온천 KT</td></tr>
+                <tr><td>26</td><td><strong>익산</strong>시</td><td>영등·모현지구 대칭형 인프라</td><td>중앙·평화동 구도심 HFC 주의</td><td>배산지구 아파트 광랜 완비</td><td>구도심 KT, 모현지구 SKB/LGU+</td></tr>
+                <tr><td>27</td><td><strong>춘천</strong>시</td><td>퇴계·온의·우두지구 대칭 우수</td><td>소양·효자동 노후 주거지역 점검</td><td>강원대 주변 원룸가 보급 양호</td><td>원룸 밀집지역 LGU+, 외곽 KT</td></tr>
+                <tr><td>28</td><td><strong>경산</strong>시</td><td>중산하늘채·하양지구 기가 100%</td><td>압량읍 원룸단지 사전 망조회</td><td>영남대 대학가 유선망 안정</td><td>중산지구 LGU+, 압량면 KT</td></tr>
+                <tr><td>29</td><td><strong>군포</strong>시</td><td>산본신도시 전역 FTTH 구축</td><td>당동·금정 공업 배후지 확인</td><td>송부동 신축 주거단지 양호</td><td>산본 3사 호환 양호, 당동 KT</td></tr>
+                <tr><td>30</td><td><strong>여수</strong>시</td><td>웅천·죽림 신도심 초고속 FTTH</td><td>원도심 충무·동문동 비대칭 잔존</td><td>여서·문수지구 기가망 완비</td><td>웅천지구 LGU+, 원도심 KT</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>이처럼 전국 30개 주요 시·군·구 어디에 거주하느냐에 따라 3대 브랜드 통신사의 실사용 만족도가 180도 달라집니다. 가입 전 통신사 대표 고객센터 전화번호 또는 온라인 전문 비교 사이트의 사전 조회를 통해 본인 거주 지번의 대칭형 FTTH 광랜 인입 여부를 반드시 검증해야 합니다.</p>
+        </section>
+
+        <!-- 제6장: 위약금 산정 공식 및 약정 메커니즘 -->
+        <section id="위약금원리">
+          <h2 class="section-heading">6. 위약금(할인반환금) 산정 공식과 1년, 12개월, 3년 약정 주기별 환불 메커니즘</h2>
+          <p>인터넷 통신 계약 체결 시 약정 기간 설정은 월 납부 금액과 위약금에 직접적인 영향을 미칩니다. 일반적으로 3년 약정이 기본이며, 1년(12개월) 단기 약정이나 무약정 요금제는 월 이용료가 1.5배에서 2배 가까이 비싸지고 사은품 현금 지원이 일절 제공되지 않습니다.</p>
+
+          <h3 class="subsection-heading">할인반환금(위약금)의 역설적 증가 곡선 구조</h3>
+          <p>소비자들이 가장 크게 오해하는 부분은 "약정 기간 36개월 중 30개월을 썼으니 남은 6개월 치만 위약금으로 내면 되겠지"라는 생각입니다. 통신사의 할인반환금 계산 방식은 남은 개월 수에 비례하는 것이 아니라, 사용한 기간 동안 제공받았던 매월 요금 할인액을 다시 토해내는 구조입니다.</p>
+
+          <div class="notice-card alert">
+            <h4 style="color: #9f1239;">법정 할인반환금 계산 표준 공식</h4>
+            <p><strong>할인반환금 = 합산 [ (무약정 표준 월요금 - 실제 체결 약정 월요금) × 사용 개월 수 × (1 - 사용 기간별 누적 할인감면율) ]</strong></p>
+            <p>이 공식에 따라 약정 개시 후 12개월부터 24개월 시점까지는 매월 누적된 할인액이 커져 위약금이 최고점을 찍게 됩니다. 25개월 차부터는 만료 할인감면율이 급격히 적용되어 서서히 감소하다가 36개월 만기 당일 정확히 0원으로 소멸합니다.</p>
+          </div>
+
+          <h3 class="subsection-heading">개통 후 12개월(1년) 유지 의무와 사은품 환불 조건</h3>
+          <p>온라인 사이트나 다이렉트 가입 성지에서 제공하는 45만 원 이상의 사은품 현금지원은 방송통신위원회 규정상 <strong>1년(365일) 의무 사용 조건</strong>이 법적으로 결부되어 있습니다. 만약 12개월 이내에 자의로 인터넷을 해지하거나, 요금 미납으로 직권 해지되거나, 정지 처리하거나, 500M에서 100M로 요금제를 하향 변경할 경우 통신사 대리점과의 계약에 따라 수령했던 사은품 전액이 환수(환불) 처리됩니다. 따라서 만기 이전에 이사를 가거나 회선을 교체할 계획이 있다면 반드시 1년 경과 시점을 넘긴 후 위약금만 정산하고 이동하는 것이 경제적 손실을 막는 유일한 방법입니다.</p>
+        </section>
+
+        <!-- 제7장: 온라인 커뮤니티 및 성지 검증 -->
+        <section id="커뮤니티성지">
+          <h2 class="section-heading">7. 온라인 커뮤니티(디시, 펨코, 보배드림) 및 SNS 가입 성지 좌표 검증 가이드</h2>
+          <p>인터넷 만기 시점이 되면 소비자들은 보다 싼곳, 가장 저렴한곳, 최저가 요금과 제일 많은 사은품 현금지원을 찾기 위해 다양한 웹 커뮤니티를 검색합니다. 대표적으로 디시인사이드 인터넷 가입 갤러리, 에펨코리아(펨코), 보배드림, 뽐뿌 등 유저 중심 커뮤니티에는 수많은 내돈내산 후기와 소위 성지 좌표 공유 글이 실시간으로 업로드됩니다.</p>
+
+          <h3 class="subsection-heading">커뮤니티 및 SNS 채널별 특성과 위험 요소 분석</h3>
+          <p>유튜브나 인스타그램, 페이스북, 틱톡의 숏폼 광고 영상에서는 화려한 문구로 "현금 70만 원 즉시 지급", "월 요금 1만 원대 무제한"과 같은 자극적인 후킹 문구를 남발합니다. 카카오톡 오픈채팅이나 텔레그램 비밀방을 통해 신청을 유도하는 음성적 업체도 기승을 부리고 있습니다. 이러한 비공식 채널에서 제시하는 터무니없는 금액의 진실을 냉정하게 파헤쳐야 합니다.</p>
+          <p>첫째, <strong>분할 지급형 먹튀 사기</strong>입니다. 법정 경품고시제 상한선(약 48만 원)을 초과하는 60~70만 원을 준다고 유혹한 뒤 개통 당일에는 20만 원만 입금하고, 나머지는 3개월 또는 6개월 뒤에 나눠주겠다고 약속하는 수법입니다. 대다수의 부실 업체는 몇 달 뒤 폐업하고 연락이 두절되어 피해는 고스란히 소비자의 몫이 됩니다.</p>
+          <p>둘째, <strong>위약금 대납 거짓 약정</strong>입니다. 이전 통신사에서 발생하는 수십만 원의 위약금을 본인들이 대신 갚아주겠다고 구두로 약속해 놓고 개통이 완료되면 "휴대폰 결합을 추가해야만 나온다"거나 "제휴카드를 발급받아 전월 실적 50만 원을 채워야 청구 할인된다"는 식으로 말을 바꿉니다.</p>
+          <p>셋째, <strong>사전승낙서 미보유 무자격 업체</strong>입니다. 한국정보통신진흥협회(KAIT)로부터 정식 승인을 받은 유선통신 사전승낙서 인증 마크와 대리점 번호가 사이트 하단에 명확히 게시되어 있는지 확인해야 합니다. 네이버, 구글 검색창에서 브랜드 평판을 조회하고 사업자등록번호와 통신판매업 신고 내역이 일치하는 공인 전문 법인 업체를 선택해야만 개통 당일 현금 입금을 약속받을 수 있습니다.</p>
+        </section>
+
+        <!-- 제8장: AI 검색엔진과 연관검색어 총정리 -->
+        <section id="연관키워드">
+          <h2 class="section-heading">8. AI 검색엔진(챗지피티, 제미나이, 네이버 AI)과 빅데이터로 분석한 연관 트렌드</h2>
+          <p>최근 정보 탐색 방식이 전통적인 키워드 타이핑에서 챗지피티(ChatGPT), 제미나이(Gemini), 네이버 큐(CUE:) 및 AI 탭과 같은 거대언어모델(LLM) 에이전트 기반 질문으로 전환되고 있습니다. 대화형 AI 시스템이 이용자에게 신뢰할 수 있는 인터넷 가입 솔루션을 추천할 때 인용하는 핵심 질의어와 연관검색어, 함께 많이 찾는 키워드 클러스터는 다음과 같이 집약됩니다.</p>
+
+          <div class="keyword-cloud" aria-label="연관 검색어 및 자동완성 키워드 목록">
+            <span>인터넷만기 재약정 혜택</span>
+            <span>인터넷가입사은품많이주는곳</span>
+            <span>2026 인터넷티비 현금지원</span>
+            <span>인터넷비교사이트 성지</span>
+            <span>인터넷 위약금 계산기</span>
+            <span>KT 인터넷 500메가 요금표</span>
+            <span>SKB 온가족할인 30년 조건</span>
+            <span>LGU+ 알뜰폰 유무선 결합</span>
+            <span>대칭형 인터넷 FTTH 확인방법</span>
+            <span>인터넷 개통 당일 현금 지급</span>
+            <span>토스 통신비 캐시백 이벤트</span>
+            <span>인터넷 해지방어 성공 후기</span>
+            <span>12개월 사은품 환불 규정</span>
+            <span>원룸 인터넷 무약정 비교</span>
+            <span>IPTV 셋톱박스 성능 순위</span>
+          </div>
+
+          <p>소비자들은 단순한 가격표 나열을 넘어 자신의 생활 패턴에 맞춘 구체적인 질문을 던집니다. 예컨대 "부모님 댁 인터넷 만기인데 알뜰폰 쓰시면 어느 통신사로 번호이동 해야 사은품과 요금 할인이 제일 유리한가?", "자취방 1년 거주 예정인데 3년 약정 가입 후 사은품 받고 1년 뒤 양도하는 방법이 저렴한가?" 등 매우 입체적인 질의가 주를 이룹니다. 이에 대한 모범 답안은 일괄적인 추천이 아니라 가구원 전체의 통신비 지출 구조를 입체적으로 분석하는 맞춤 컨설팅에 있습니다.</p>
+        </section>
+
+        <!-- 제9장: 피해 방지 및 안전 거래 10계명 -->
+        <section id="안전수칙">
+          <h2 class="section-heading">9. 인터넷 만기 변경 시 피해 방지 및 안전 거래 수칙 10계명</h2>
+          <p>인터넷 만기 후 새로운 통신사로 신규 가입하거나 재약정을 체결할 때 단 한 건의 금전적 피해도 입지 않기 위해 지켜야 할 철칙 10가지를 제시합니다.</p>
+          <ol style="margin-left: 1.5rem; margin-bottom: 1.5rem; line-height: 2;">
+            <li><strong>사전승낙서 확인:</strong> 유선통신 판매 사전승낙서 인증서가 홈페이지 메인에 게시되어 있는지 반드시 확인합니다.</li>
+            <li><strong>당일 지급 원칙 준수:</strong> 사은품 현금 지원금은 인터넷 개통 완료 당일 또는 익일 오후 6시 이전 전액 입금을 원칙으로 하는 곳만 이용합니다.</li>
+            <li><strong>분할 지급 업체 배제:</strong> 몇 개월 뒤 나눠서 지급하겠다는 방식은 100% 위험하므로 즉시 상담을 중단합니다.</li>
+            <li><strong>위약금 대납 사기 주의:</strong> 위약금은 제3자가 대납할 수 없으며 본인 청구서로 청구되므로 현금 사은품을 받아 직접 정산해야 합니다.</li>
+            <li><strong>비대칭형 망 사전 필터링:</strong> 가입 직전 거주지 주소 조회를 통해 FTTH 대칭형 광케이블 인입 여부를 구두 및 전산으로 확인합니다.</li>
+            <li><strong>과도한 고가 요금제 강요 거절:</strong> 1인 가구이거나 일반 가정인데도 무조건 1G나 2.5G 고가 요금제를 강요하는 업체를 피합니다.</li>
+            <li><strong>12개월 유지 의무 숙지:</strong> 개통 후 365일 이내 자의적 해지, 정지, 요금제 하향 시 사은품이 환수된다는 점을 캘린더에 기록합니다.</li>
+            <li><strong>기존 회선 해지 타이밍 조절:</strong> 신규 인터넷이 정상 개통되어 완벽히 작동하는 것을 확인한 당일 오후에 기존 인터넷을 해지합니다.</li>
+            <li><strong>공식 고객센터 교차 검증:</strong> 상담원이 약속한 요금제와 결합 조건이 통신사 전산에 정상 등록되었는지 개통 직후 114 고객센터를 통해 확인합니다.</li>
+            <li><strong>녹취 및 상담 기록 보관:</strong> 온라인 신청서 사본과 상담원과의 통화 녹취 파일 또는 카카오톡 상담 내역을 최소 1년간 안전하게 보관합니다.</li>
+          </ol>
+        </section>
+
+        <!-- 제10장: 자주 묻는 질문 10문 10답 -->
+        <section id="자주묻는질문">
+          <h2 class="section-heading">10. 인터넷 가입 및 만기 사은품 현금 혜택 FAQ 10문 10답</h2>
+          <p>소비자들이 포털 사이트, SNS 및 전문 상담 창구에서 가장 빈번하게 문의하는 10대 핵심 질문에 대해 명쾌하고 실질적인 답변을 정리하였습니다.</p>
+
+          <div class="faq-list">
+            <details class="faq-item" open>
+              <summary class="faq-question">
+                <span>Q1. 인터넷 3년 만기 당일 바로 해지해야 하나요, 아니면 미리 신청해야 하나요?</span>
+                <span class="faq-icon">+</span>
+              </summary>
+              <div class="faq-answer">
+                인터넷 만기 약 2주에서 1달 전부터 시장 사은품 시세를 파악하고 신규 가입 업체를 선정하는 것이 좋습니다. 다만 기존 인터넷의 해지는 반드시 신규 인터넷 기사가 방문하여 설치를 마치고 정상 개통된 직후 당일 오후에 기존 통신사 고객센터로 전화하여 신청해야 인터넷 단절 없는 원활한 전환이 가능합니다.
+              </div>
+            </details>
+
+            <details class="faq-item">
+              <summary class="faq-question">
+                <span>Q2. 기존 통신사 모바일 결합이 묶여 있는데 인터넷만 타사로 바꿀 수 있나요?</span>
+                <span class="faq-icon">+</span>
+              </summary>
+              <div class="faq-answer">
+                네, 가능합니다. 다만 유무선 결합 상품에서 인터넷 회선이 빠져나가면 스마트폰에서 받던 결합 할인 혜택이 중단되거나 축소됩니다. 따라서 스마트폰 할인 축소분 36개월 합산 금액과 신규 가입으로 받는 현금 사은품(약 47만 원)의 크기를 비교하여 실질적인 손익을 계산해야 합니다.
+              </div>
+            </details>
+
+            <details class="faq-item">
+              <summary class="faq-question">
+                <span>Q3. 현금 사은품을 받으면 소득세나 세무 신고 대상이 되나요?</span>
+                <span class="faq-icon">+</span>
+              </summary>
+              <div class="faq-answer">
+                개통 대리점에서 지급하는 사은품은 통상 기타소득 원천징수 대상이 되거나 판촉 경품 비과세 범위로 처리되므로 소비자가 별도로 5월 종합소득세 신고를 진행할 의무는 일반적으로 발생하지 않습니다. 대리점에서 세금 원천징수 후 세후 금액으로 입금해 주는 것이 보편적인 관행입니다.
+              </div>
+            </details>
+
+            <details class="faq-item">
+              <summary class="faq-question">
+                <span>Q4. 100메가, 500메가, 1기가 중 어떤 속도를 선택하는 것이 제일 합리적인가요?</span>
+                <span class="faq-icon">+</span>
+              </summary>
+              <div class="faq-answer">
+                1~2인 가구로 웹서핑, 유튜브 FHD 시청 위주라면 100M 슬림 요금제로도 충분합니다. 그러나 3~4인 가구이거나 넷플릭스 4K UHD 동시 스트리밍, 대용량 파일 다운로드, 고사양 콘솔 게임 패치 등을 자주 이용한다면 요금 대비 사은품 혜택이 가장 높은 500M 기가라이트 상품이 가성비 면에서 제일 추천됩니다.
+              </div>
+            </details>
+
+            <details class="faq-item">
+              <summary class="faq-question">
+                <span>Q5. 알뜰폰을 사용 중인 사람은 어느 통신사 인터넷에 가입해야 가장 유리한가요?</span>
+                <span class="faq-icon">+</span>
+              </summary>
+              <div class="faq-answer">
+                알뜰폰 이용자는 통신 3사 중 LG유플러스의 '참 쉬운 가족결합' 제도를 활용하는 것이 가장 유리합니다. 대다수의 중소 알뜰폰 사업자 회선과도 인터넷 유무선 결합이 가능하여 매월 인터넷 요금 할인을 받을 수 있으며, 신규 가입 사은품 지원금 역시 통신 3사 중 가장 적극적으로 지급하기 때문입니다.
+              </div>
+            </details>
+
+            <details class="faq-item">
+              <summary class="faq-question">
+                <span>Q6. 신규 가입 시 설치비는 첫 달 청구서에 얼마가 청구되나요?</span>
+                <span class="faq-icon">+</span>
+              </summary>
+              <div class="faq-answer">
+                2026년 기준 통신 3사의 인터넷과 IPTV 동시 개통 출동비는 첫 달 요금 청구서에 1회 한정으로 합산 청구됩니다. 평일 주간 설치 기준 약 47,300원(야간 및 주말 공휴일 설치 시 할증 요금 약 59,000원 선)이 부과되며, 이는 대리점에 지불하는 것이 아니라 통신사 본사 청구서에 투명하게 표기됩니다.
+              </div>
+            </details>
+
+            <details class="faq-item">
+              <summary class="faq-question">
+                <span>Q7. 원룸이나 오피스텔에 관리비 포함 인터넷이 있는데 개별 설치가 가능한가요?</span>
+                <span class="faq-icon">+</span>
+              </summary>
+              <div class="faq-answer">
+                건물 전체가 단체 계약(B2B)으로 인입된 경우 건물주나 관리사무소의 동의가 필요합니다. 벽면 단자함 인입 공사가 물리적으로 허용된다면 개별 인터넷 설치 및 신규 사은품 수령이 가능하지만, 건물 전용 회선만 허용되는 단독 배관 구조라면 개별 개통이 불가능할 수 있으므로 관리실에 사전 확인해야 합니다.
+              </div>
+            </details>
+
+            <details class="faq-item">
+              <summary class="faq-question">
+                <span>Q8. 통신사 본사 고객센터(114)에서 가입하면 왜 현금을 안 주나요?</span>
+                <span class="faq-icon">+</span>
+              </summary>
+              <div class="faq-answer">
+                통신사 본사는 브랜드 신뢰도와 자체 마케팅 인프라를 보유하고 있어 법정 상한선까지 현금을 지급하지 않아도 유입되는 고객이 많습니다. 반면 온라인 유통 판매점은 본사로부터 지급받는 고객 유치 수수료(리베이트)의 마진을 최소화하여 고객에게 현금 페이백 형태로 환원함으로써 실적을 달성하는 구조이기 때문입니다.
+              </div>
+            </details>
+
+            <details class="faq-item">
+              <summary class="faq-question">
+                <span>Q9. 약정 기간 3년이 지난 후 아무런 조치를 안 취하면 어떻게 되나요?</span>
+                <span class="faq-icon">+</span>
+              </summary>
+              <div class="faq-answer">
+                약정 만기 후 가만히 있으면 기존 계약 조건 그대로 무약정 상태로 자동 연장됩니다. 이때 위약금은 0원이 되지만 재약정 사은품이나 신규 가입 현금 지원 혜택을 전혀 받지 못한 채 기존 비싼 요금을 그대로 납부하게 되므로, 소비자 입장에서는 매 3년 주기마다 적극적으로 재약정 또는 신규 이동을 진행하는 것이 현명합니다.
+              </div>
+            </details>
+
+            <details class="faq-item">
+              <summary class="faq-question">
+                <span>Q10. 동일 명의로 해지 후 바로 같은 통신사로 신규 가입할 수 있나요?</span>
+                <span class="faq-icon">+</span>
+              </summary>
+              <div class="faq-answer">
+                불가능합니다. 통신 3사는 편법 사은품 수령을 방지하기 위해 해지 후 동일 주소지 또는 동일 명의로 3개월(90일) 이내 재가입하는 행위를 전산상 신규 가입으로 인정하지 않고 단순 재가입으로 분류하여 사은품을 지급하지 않습니다. 이를 우회하려면 가족 다른 구성원의 명의로 신규 가입하거나 타 통신사로 번호이동해야 합니다.
+              </div>
+            </details>
+          </div>
+        </section>
+
+        <!-- 제11장: 공식 외부 사이트 참조 안내 -->
+        <section class="reference-section" id="공식참고자료">
+          <h3 style="color: var(--primary-dark); font-size: 1.25rem; font-weight: 700; margin-top: 0;">공식 검증 기관 및 신뢰할 수 있는 정책 참고자료</h3>
+          <p style="font-size: 0.95rem; color: var(--text-muted); margin-bottom: 0.75rem;">본 가이드는 공신력 있는 통신 정책 기관 및 공인 데이터베이스의 객관적 고시 기준을 기반으로 작성되었습니다.</p>
+          <ul class="reference-list">
+            <li>
+              <a href="https://topspeedjnetg.withuslees.com" target="_blank" rel="noopener noreferrer">통신인프라연구소 – 2026 전국 유선망 인프라 대칭형 보급률 및 사은품 표준 가이드</a>
+            </li>
+            <li>
+              <a href="https://namu.wiki/w/인터넷_가입" target="_blank" rel="noopener noreferrer">나무위키 – 초고속인터넷 가입 구조 및 경품고시제 역사와 메커니즘 상세 해설</a>
+            </li>
+            <li>
+              <a href="https://kcc.go.kr" target="_blank" rel="noopener noreferrer">방송통신위원회(KCC) – 유무선 결합상품 경품고시제 가이드라인 및 통신 소비자 피해예방 센터</a>
+            </li>
+          </ul>
+        </section>
+
+      </article>
+    </div>
+  </main>
+
+	
+
+  <!-- 프론트엔드 대화형 자바스크립트 로직 -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // 1. 대화형 계산기 로직
+      const carrierSelect = document.getElementById('calc-carrier');
+      const speedSelect = document.getElementById('calc-speed');
+      const tvSelect = document.getElementById('calc-tv');
+      const mobileSelect = document.getElementById('calc-mobile');
+
+      const resMonthly = document.getElementById('res-monthly');
+      const resGift = document.getElementById('res-gift');
+      const resTotal = document.getElementById('res-total');
+      const resReal = document.getElementById('res-real');
+
+      function calculateQuote() {
+        const carrier = carrierSelect.value;
+        const speed = speedSelect.value;
+        const tv = tvSelect.value;
+        const mobile = parseInt(mobileSelect.value, 10);
+
+        let baseMonthly = 0;
+        let giftAmount = 0;
+
+        // 속도 및 TV 결합에 따른 표준 요금 매핑
+        if (speed === '100') {
+          baseMonthly = (tv === 'basic') ? 38500 : 22000;
+          giftAmount = (tv === 'basic') ? 420000 : 100000;
+        } else if (speed === '500') {
+          baseMonthly = (tv === 'basic') ? 44000 : 33000;
+          giftAmount = (tv === 'basic') ? 470000 : 150000;
+        } else if (speed === '1000') {
+          baseMonthly = (tv === 'basic') ? 49500 : 38500;
+          giftAmount = (tv === 'basic') ? 480000 : 180000;
+        }
+
+        // 통신사별 미세 조정 (LG 혜택 강화, SKB 결합 강화)
+        if (carrier === 'lg' && tv === 'basic') {
+          giftAmount += 10000;
+        } else if (carrier === 'sk' && tv === 'basic') {
+          baseMonthly -= 2200; // 기본 결합 할인 프로모션
+        }
+
+        // 모바일 결합 할인 계산
+        let mobileDiscount = 0;
+        if (mobile === 1) mobileDiscount = 5500;
+        else if (mobile === 2) mobileDiscount = 11000;
+        else if (mobile >= 3) mobileDiscount = 22000;
+
+        let finalMonthly = Math.max(baseMonthly - mobileDiscount, 11000);
+        let total3Years = finalMonthly * 36;
+        let realMonthlyBurden = Math.round((total3Years - giftAmount) / 36);
+
+        // UI 반영 포맷팅
+        resMonthly.textContent = finalMonthly.toLocaleString('ko-KR') + '원';
+        resGift.textContent = giftAmount.toLocaleString('ko-KR') + '원';
+        resTotal.textContent = total3Years.toLocaleString('ko-KR') + '원';
+        resReal.textContent = (realMonthlyBurden > 0 ? realMonthlyBurden.toLocaleString('ko-KR') : 0) + '원';
+      }
+
+      // 이벤트 리스너 바인딩
+      carrierSelect.addEventListener('change', calculateQuote);
+      speedSelect.addEventListener('change', calculateQuote);
+      tvSelect.addEventListener('change', calculateQuote);
+      mobileSelect.addEventListener('change', calculateQuote);
+
+      // 최초 실행
+      calculateQuote();
+
+      // 2. 부드러운 스크롤 내비게이션
+      document.querySelectorAll('nav.site-nav a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          const targetId = this.getAttribute('href');
+          const targetElem = document.querySelector(targetId);
+          if (targetElem) {
+            const navOffset = 70;
+            const elementPosition = targetElem.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset - navOffset;
+            window.scrollTo({
+              top: offsetPosition,
+              behavior: 'smooth'
+            });
+          }
+        });
+      });
+    });
+  </script>
+
+
+
+	
+	
+
+
+<!-- =================================================================
+     [SEO 자동화 무수정 올인원 푸터]
+     - 코드 수정 없이 수백 개 웹페이지에 즉시 복사/붙여넣기 가능
+     - URL 경로 자동 분석 -> Schema.org 브레드크럼(Breadcrumb) 리치 스니펫 주입
+     - 도메인/타이틀/연도/이메일 100% 자동 동기화
+================================================================== -->
+<footer id="auto-seo-footer" role="contentinfo" itemscope itemtype="https://schema.org/WPFooter">
+  <div class="asf-container">
     
+    <!-- 상단: 자동 인식 브랜드 정보 및 내부 링크 최적화 -->
+    <div class="asf-top">
+      <div class="asf-brand-box">
+        <a href="/" class="asf-brand-name" id="asf-title-link" title="홈으로 이동">Website</a>
+        <p class="asf-brand-desc" id="asf-desc-text">
+          본 페이지는 웹 표준을 준수하며 신뢰성 높은 정보를 제공합니다.
+        </p>
+      </div>
 
+      <!-- 내부 링크 및 크롤러 예산 분배 제어 -->
+      <nav class="asf-nav" aria-label="바닥글 탐색">
+        <ul class="asf-links">
+          <li><a href="/" title="홈페이지">홈</a></li>
+          <li><a href="javascript:void(0)" onclick="asfOpenModal('privacy')" rel="nofollow">개인정보처리방침</a></li>
+          <li><a href="javascript:void(0)" onclick="asfOpenModal('terms')" rel="nofollow">이용약관</a></li>
+          <li><a href="#" id="asf-mail-link">문의하기</a></li>
+        </ul>
+      </nav>
+    </div>
 
+    <div class="asf-divider"></div>
 
-	  
+    <!-- 하단: 메타 정보 및 카피라이트 -->
+    <div class="asf-bottom">
+      <div class="asf-meta-info">
+        <span>사이트: <strong id="asf-domain-text">domain.com</strong></span>
+        <span class="asf-sep">|</span>
+        <span>운영 문의: <span id="asf-email-text">admin@domain.com</span></span>
+      </div>
+      <p class="asf-copyright">
+        &copy; <span id="asf-year">2026</span> <span class="asf-copy-name">Website</span>. All rights reserved.
+      </p>
+    </div>
 
-
-
-
-<!-- [Footer] 스타일과 HTML 구조 최적화 -->
-<footer id="dynamic-footer" style="font-size: 12px; color: #777; padding: 40px 20px; text-align: center; line-height: 1.8; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background-color: #fafafa; border-top: 1px solid #eee;">
-  
-  <div style="margin-bottom: 12px; font-weight: 500; color: #444;">
-    © <span id="copyright-year">2026</span> <span id="site-title-display">My Website</span>. All rights reserved.
   </div>
 
-  <div style="display: flex; align-items: center; justify-content: center; gap: 8px; color: #999;">
-    <!-- 실시간 상태 표시등 (시각적 신뢰도 상승) -->
-    <span style="display: inline-block; width: 8px; height: 8px; background-color: #2ecc71; border-radius: 50%; box-shadow: 0 0 5px #2ecc71; animation: pulse 2s infinite;"></span>
-    <span id="sync-status" aria-live="polite">시스템 연결 중...</span>
-    <span style="color: #ddd;">|</span>
-    <span>최종 업데이트: <time id="last-update-time" datetime="2026-01-01">2026-01-01</time></span>
+  <!-- 데드링크 방지용 내장 약관 모달 -->
+  <div id="asf-modal" class="asf-modal" style="display:none;" role="dialog" aria-modal="true">
+    <div class="asf-modal-content">
+      <div class="asf-modal-header">
+        <h4 id="asf-modal-title">약관 안내</h4>
+        <button type="button" onclick="asfCloseModal()" class="asf-close-btn" aria-label="닫기">&times;</button>
+      </div>
+      <div class="asf-modal-body" id="asf-modal-body"></div>
+    </div>
   </div>
 
+  <!-- 자체 완결형 경량 스타일 (CSS 간섭 방지 scoped) -->
   <style>
-    @keyframes pulse {
-      0% { opacity: 1; transform: scale(1); }
-      50% { opacity: 0.5; transform: scale(1.2); }
-      100% { opacity: 1; transform: scale(1); }
+    #auto-seo-footer {
+      font-size: 12px;
+      color: #64748b;
+      line-height: 1.6;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple SD Gothic Neo", sans-serif;
+      background-color: #f8fafc;
+      border-top: 1px solid #e2e8f0;
+      padding: 36px 20px 24px;
+      box-sizing: border-box;
+      width: 100%;
+    }
+    #auto-seo-footer .asf-container { max-width: 1000px; margin: 0 auto; }
+    #auto-seo-footer .asf-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 24px; }
+    #auto-seo-footer .asf-brand-box { max-width: 580px; }
+    #auto-seo-footer .asf-brand-name {
+      font-size: 15px;
+      font-weight: 700;
+      color: #0f172a;
+      text-decoration: none;
+      display: inline-block;
+      margin-bottom: 6px;
+    }
+    #auto-seo-footer .asf-brand-name:hover { text-decoration: underline; }
+    #auto-seo-footer .asf-brand-desc { margin: 0; font-size: 12px; color: #64748b; word-break: keep-all; }
+    #auto-seo-footer .asf-nav { flex-shrink: 0; }
+    #auto-seo-footer .asf-links { list-style: none; padding: 0; margin: 0; display: flex; gap: 14px; }
+    #auto-seo-footer .asf-links a {
+      color: #475569;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+    #auto-seo-footer .asf-links a:hover { color: #0284c7; text-decoration: underline; }
+    #auto-seo-footer .asf-divider { border-top: 1px solid #e2e8f0; margin: 20px 0; }
+    #auto-seo-footer .asf-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      font-size: 11.5px;
+      color: #94a3b8;
+    }
+    #auto-seo-footer .asf-sep { margin: 0 8px; color: #cbd5e1; }
+    #auto-seo-footer .asf-copyright { margin: 0; }
+    
+    /* 약관 모달창 */
+    #auto-seo-footer .asf-modal {
+      position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+      background: rgba(0,0,0,0.5); z-index: 999999;
+      display: flex; align-items: center; justify-content: center;
+    }
+    #auto-seo-footer .asf-modal-content {
+      background: #fff; border-radius: 8px; max-width: 500px; width: 90%;
+      padding: 24px; box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+    #auto-seo-footer .asf-modal-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+    #auto-seo-footer .asf-modal-header h4 { margin: 0; font-size: 16px; color: #1e293b; }
+    #auto-seo-footer .asf-close-btn { background: none; border: none; font-size: 24px; cursor: pointer; color: #64748b; }
+    #auto-seo-footer .asf-modal-body { max-height: 300px; overflow-y: auto; font-size: 12.5px; color: #475569; line-height: 1.6; }
+
+    @media (max-width: 768px) {
+      #auto-seo-footer .asf-top { flex-direction: column; gap: 16px; }
+      #auto-seo-footer .asf-bottom { flex-direction: column; align-items: flex-start; }
     }
   </style>
 </footer>
 
+<!-- 3. 실시간 SEO 연동 및 브레드크럼 리치스니펫 자동 주입 스크립트 -->
 <script>
 (function() {
   'use strict';
 
-  // 1. KST(한국 표준시) 데이터 생성기
-  function getKstInfo() {
-    const now = new Date();
+  function initSeoEngine() {
+    var host = window.location.hostname;
+    var cleanHost = host.replace(/^www\./, '');
+    var origin = window.location.origin;
+    var pathname = window.location.pathname;
     
-    // Intl API를 사용하여 한국 시간 데이터 추출 (가장 정확하고 현대적인 방식)
-    const formatter = new Intl.DateTimeFormat('ko-KR', {
-      timeZone: 'Asia/Seoul',
-      year: 'numeric', month: '2-digit', day: '2-digit',
-      hour: '2-digit', minute: '2-digit', second: '2-digit',
-      hour12: false
+    // 1) 사이트 타이틀 자동 판별
+    var rawTitle = document.title ? document.title.split(/[-|_|:]/)[0].trim() : cleanHost;
+    if (!rawTitle) rawTitle = cleanHost;
+
+    // 2) DOM 텍스트 자동 동기화
+    var titleLink = document.getElementById('asf-title-link');
+    if (titleLink) titleLink.textContent = rawTitle;
+
+    var domainText = document.getElementById('asf-domain-text');
+    if (domainText) domainText.textContent = cleanHost;
+
+    var autoEmail = 'admin@' + cleanHost;
+    var emailText = document.getElementById('asf-email-text');
+    if (emailText) emailText.textContent = autoEmail;
+
+    var mailLink = document.getElementById('asf-mail-link');
+    if (mailLink) mailLink.href = 'mailto:' + autoEmail;
+
+    var yearElem = document.getElementById('asf-year');
+    if (yearElem) yearElem.textContent = new Date().getFullYear();
+
+    var copyNames = document.querySelectorAll('#auto-seo-footer .asf-copy-name');
+    copyNames.forEach(function(el) { el.textContent = rawTitle; });
+
+    // 3) [상위노출 핵심] 구글 브레드크럼(BreadcrumbList) & WebSite Schema 자동 생성
+    var pathSegments = pathname.split('/').filter(function(seg) { return seg.length > 0; });
+    var itemListElement = [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": origin + "/"
+      }
+    ];
+
+    var accumulatedPath = origin;
+    pathSegments.forEach(function(segment, index) {
+      accumulatedPath += '/' + segment;
+      var decodedName = decodeURIComponent(segment).replace(/[-_+]/g, ' ');
+      // 마지막 글 제목인 경우 타이틀 활용
+      if (index === pathSegments.length - 1 && document.title) {
+        decodedName = rawTitle;
+      }
+      itemListElement.push({
+        "@type": "ListItem",
+        "position": index + 2,
+        "name": decodedName,
+        "item": accumulatedPath
+      });
     });
 
-    const parts = formatter.formatToParts(now).reduce((acc, part) => {
-      acc[part.type] = part.value;
-      return acc;
-    }, {});
-
-    const year = parts.year;
-    const formattedDate = year + '-' + parts.month + '-' + parts.day;
-    const isoDateTime = year + '-' + parts.month + '-' + parts.day + 'T' + parts.hour + ':' + parts.minute + ':' + parts.second + '+09:00';
-
-    return { year, formattedDate, isoDateTime };
-  }
-
-  // 2. SEO 메타 태그 및 JSON-LD 일괄 업데이트
-  function updateSeoEngine(data) {
-    const title = document.title || window.location.hostname;
-
-    // 메타 태그 헬퍼 함수
-    const setMeta = (selector, content) => {
-      let el = document.querySelector(selector);
-      if (!el) {
-        el = document.createElement('meta');
-        if (selector.includes('property')) {
-          el.setAttribute('property', selector.split('"')[1]);
-        } else {
-          el.setAttribute('name', selector.split('"')[1]);
-        }
-        document.head.appendChild(el);
-      }
-      el.content = content;
-    };
-
-    // [SEO] 필수 메타 데이터
-    setMeta('property="og:updated_time"', data.isoDateTime);
-    setMeta('property="article:modified_time"', data.isoDateTime);
-    setMeta('name="date"', data.formattedDate);
-    setMeta('name="last-modified"', data.isoDateTime); // 서버 응답 대용
-    setMeta('name="copyright"', data.year + ' ' + title);
-
-    // [SEO] JSON-LD 구조화 데이터 (WebPage + Organization 결합)
-    let ldJsonScript = document.getElementById('seo-json-ld');
-    if (!ldJsonScript) {
-      ldJsonScript = document.createElement('script');
-      ldJsonScript.id = 'seo-json-ld';
-      ldJsonScript.type = 'application/ld+json';
-      document.head.appendChild(ldJsonScript);
-    }
-
-    const jsonLd = {
+    var dynamicSchema = {
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "WebPage",
-          "@id": window.location.href,
-          "url": window.location.href,
-          "name": title,
-          "datePublished": data.isoDateTime,
-          "dateModified": data.isoDateTime,
-          "inLanguage": "ko-KR"
+          "@type": "WebSite",
+          "@id": origin + "/#website",
+          "url": origin,
+          "name": rawTitle
         },
         {
-          "@type": "Organization",
-          "name": title,
-          "url": window.location.origin,
-          "logo": window.location.origin + "/favicon.ico"
+          "@type": "BreadcrumbList",
+          "@id": window.location.href + "#breadcrumb",
+          "itemListElement": itemListElement
         }
       ]
     };
-    ldJsonScript.textContent = JSON.stringify(jsonLd);
+
+    // Schema script 태그 주입
+    var script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.text = JSON.stringify(dynamicSchema);
+    document.head.appendChild(script);
   }
 
-  // 3. UI 업데이트
-  function updateUi(data) {
-    const title = document.title || window.location.hostname;
-    
-    // 연도 및 제목
-    document.getElementById('copyright-year').textContent = data.year;
-    document.getElementById('site-title-display').textContent = title;
-    
-    // 날짜
-    const timeElem = document.getElementById('last-update-time');
-    timeElem.textContent = data.formattedDate;
-    timeElem.setAttribute('datetime', data.isoDateTime);
+  // 4) 내장 모달(약관) 제어 로직 (404 방지)
+  window.asfOpenModal = function(type) {
+    var modal = document.getElementById('asf-modal');
+    var title = document.getElementById('asf-modal-title');
+    var body = document.getElementById('asf-modal-body');
+    var cleanHost = window.location.hostname.replace(/^www\./, '');
 
-    // 상태 메시지 (랜덤 순환)
-    const statusMsgs = [
-         "서비스 최적화 완료", 
-          "데이터베이스 동기화 완료", 
-          "보안 프로토콜 점검 완료",
-          "콘텐츠 최신화 완료",
-          "시스템 점검 완료",
-          "웹표준 레이아웃 최적화",
-          "사용자 인터페이스 안정화",
-          "성능 개선 완료",
-          "새로운 데이터 로드 완료",
-          "운영 시스템 안정화 완료",
-          "인덱싱 최적화 완료",
-          "데이터 무결성 검사 완료", 
-          "캐시 레이어 갱신",
-          "보안 프로토콜 활성화", 
-          "실시간 콘텐츠 동기화"
-    ];
-    document.getElementById('sync-status').textContent = statusMsgs[Math.floor(Math.random() * statusMsgs.length)];
-  }
+    if (type === 'privacy') {
+      title.textContent = '개인정보처리방침';
+      body.innerHTML = '<strong>' + cleanHost + '</strong>는 이용자의 개인정보를 중요시하며, 관련 법령을 준수합니다.<br><br>' +
+        '1. 수집 항목: 접속 로그, 브라우저 정보 등 서비스 이용 과정에서 자동 생성되는 정보<br>' +
+        '2. 이용 목적: 사이트 트래픽 분석 및 안정적인 서비스 유지관리<br>' +
+        '3. 보유 기간: 관련 법령에 따른 의무 보존 기간 동안 보관 후 파기됩니다.';
+    } else {
+      title.textContent = '서비스 이용약관';
+      body.innerHTML = '<strong>' + cleanHost + '</strong> 이용을 환영합니다.<br><br>' +
+        '1. 본 사이트의 모든 콘텐츠는 정보 제공 목적으로 작성되었습니다.<br>' +
+        '2. 무단 복제 및 상업적 도용을 금지하며, 링크 공유 및 인용은 출처를 명시해야 합니다.';
+    }
+    if (modal) modal.style.display = 'flex';
+  };
 
-  // 4. 실행 제어 (DOM 로드 후 실행)
+  window.asfCloseModal = function() {
+    var modal = document.getElementById('asf-modal');
+    if (modal) modal.style.display = 'none';
+  };
+
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', () => {
-      const data = getKstInfo();
-      updateUi(data);
-      updateSeoEngine(data);
-    });
+    document.addEventListener('DOMContentLoaded', initSeoEngine);
   } else {
-    const data = getKstInfo();
-    updateUi(data);
-    updateSeoEngine(data);
+    initSeoEngine();
   }
 })();
 </script>
